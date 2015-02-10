@@ -1,0 +1,202 @@
+<head>
+  <title>Nalita's Bag of Holding</title>
+</head>
+
+<body>
+<div class="container">
+  <header><h1>Welcome to Nalita's Bag of Holding!</h1></header>
+  <br>
+  <table class="table" style="border-collapse:collapse;">
+  <thead>
+  <tr>
+          <th><input type="checkbox"></th>
+          <th>Item</th>
+          <th class="text-right">Total Value</th>
+          <th class="text-right">Quantity</th>
+          <th class="text-right">Edit</th>
+          <th class="text-right">Trash</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each inventory}}
+  {{> item}}
+  {{/each}}
+  </tbody>
+  </table>
+  <br>
+  <form>
+  <div class="row">
+  <div class="col-md-8">
+  {{> inputAutocomplete settings=settings id="ac_name" class="input-large form-control" autocomplete="off" placeholder="Add Item"}}
+  </div>
+  <div class="col=md-4">
+  <button type="button" class="btn btn-primary" id="button_add_item"><span class="glyphicon glyphicon-plus"></span></button>
+  </div>
+  </div>
+  </form>
+</div>
+</body>
+
+<template name="item">
+<tr>
+<td>
+<input type="checkbox">
+</td>
+<td width="50%">
+{{#if link}}
+<a href="{{link}}">
+{{name}}
+</a>
+{{else}}
+{{name}}
+{{/if}}
+</td>
+<td class="text-right">
+{{total_value}}
+</td>
+<td class="text-right">
+<input type="text" class="item_property input text-right" data-property="quantity" value="{{quantity}}">
+</td>
+<td class="text-right">
+<button type="button" class="btn btn-link btn-info button_edit" data-toggle="collapse" data-target="#edit_{{this._id.toHexString}}"><span class="glyphicon glyphicon-edit"></span></button>
+</td>
+<td class="text-right">
+<button type="button" class="btn btn-link btn-danger button_delete"><span class="glyphicon glyphicon-trash"></span></button>
+</td>
+</tr>
+<tr>
+<td colspan="5" class="hiddenRow">
+<div class="collapse accordian-body" id="edit_{{this._id.toHexString}}">
+<div class="panel panel-default">
+<div class="panel-body">
+{{#if is_magic}}
+{{> details_magic}}
+{{/if}}
+{{#if is_armor}}
+{{> details_armor}}
+{{/if}}
+</div>
+</div>
+</div>
+</td>
+<td>&nbsp;</td>
+</tr>
+</template>
+
+<template name="details_magic">
+<table class="table">
+<tr>
+<td colspan="2">
+    <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="item_property form-control" data-property="name" value={{name}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="value">Value</label>
+    <input type="text" class="item_property form-control" data-property="value" value={{value}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="caster_level">Caster Level</label>
+    <input type="text" class="item_property form-control" data_property="caster_level" value={{caster_level}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td>
+    <div class="form-group">
+    <label for="base_item">Base Item</label>
+    <input type="text" class="item_property form-control" data-property="base_item" value={{base_item}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="slot">Slot</label>
+    <input type="text" class="item_property form-control" data-property="slot" value={{slot}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="aura_strength">Aura Strength</label>
+    <input type="text" class="item_property form-control" data-property="aura_strength" value={{aura_strength}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="aura_type">Aura Type</label>
+    <input type="text" class="item_property form-control" data-property="aura_type" value={{aura_type}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="link">Link</label>
+    <input type="text" class="item_property form-control" data-property="link" value={{link}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="notes">Notes</label>
+    <input type="textarea" class="item_property form-control" data-property="notes" value={{notes}}>
+    </div>
+</td>
+</tr>
+</table>
+</template>
+
+<template name="details_armor">
+<table class="table">
+<tr>
+<td colspan="2">
+    <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="item_property form-control" data-property="name" value={{name}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="value">Value</label>
+    <input type="text" class="item_property form-control" data-property="value" value={{value}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="caster_level">Armor Bonus</label>
+    <input type="text" class="item_property form-control" data_property="bonus" value={{bonus}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="link">Link</label>
+    <input type="text" class="item_property form-control" data-property="link" value={{link}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="notes">Notes</label>
+    <input type="textarea" class="item_property form-control" data-property="notes" value={{notes}}>
+    </div>
+</td>
+</tr>
+</table>
+</template>
+
+<template name="item_short">
+{{name}}
+{{#if is_magic}}
+<span class="label label-info label-as-badge pull-right">magic</span>
+{{/if}}
+{{#if is_armor}}
+<span class="label label-success label-as-badge pull-right">armor</span>
+{{/if}}
+</template>

@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+body {
+/*        background-image: url("background.jpg");
+        font: 400 3.5em/125% 'Handlee', Helvetica, Sans-serif;*/
+}
+.table tbody>tr>td{
+            vertical-align: middle;
+}
+
+.label-as-badge {
+            border-radius: 1em;
+}
