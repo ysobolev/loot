@@ -45,3 +45,8 @@ if Meteor.isClient
 
 if Meteor.isServer
   Meteor.startup () ->
+    Items.remove {}
+    armors = JSON.parse Assets.getText "armor.json"
+    for armor in armors
+      Items.insert armor
+
