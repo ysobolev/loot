@@ -3,46 +3,40 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container-fluid">
   <header><h1>Welcome to Nalita's Bag of Holding!</h1></header>
-  <br>
-  <table class="table" style="border-collapse:collapse;">
-  <thead>
-  <tr>
-          <th><input type="checkbox"></th>
-          <th>Item</th>
-          <th class="text-right">Total Value</th>
-          <th class="text-right">Quantity</th>
-          <th class="text-right">Edit</th>
-          <th class="text-right">Trash</th>
-  </tr>
-  </thead>
-  <tbody>
-  {{#each inventory}}
-  {{> item}}
-  {{/each}}
-  </tbody>
-  </table>
   <br>
   <form>
   <div class="row">
   <div class="col-md-8">
   {{> inputAutocomplete settings=settings id="ac_name" class="input-large form-control" autocomplete="off" placeholder="Add Item"}}
   </div>
-  <div class="col=md-4">
+  <div class="col-md-4">
   <button type="button" class="btn btn-primary" id="button_add_item"><span class="glyphicon glyphicon-plus"></span></button>
   </div>
   </div>
   </form>
+  <br>
+  <div class="row header">
+  <div class="col-md-4">Item</div>
+  <div class="col-md-1">Quantity</div>
+  <div class="col-md-1">Total Value</div>
+  <div class="col-md-1">Edit</div>
+  <div class="col-md-1">Trash</div>
+  </div>
+  {{#sortable items=inventory}}
+  <div class="sortable">
+  {{> item}}
+  </div>
+  {{/sortable}}
+  <br>
 </div>
 </body>
 
 <template name="item">
-<tr>
-<td>
-<input type="checkbox">
-</td>
-<td width="50%">
+<div class="row">
+<div class="col-md-4">
+{{enchantment}}
 {{#if link}}
 <a href="{{link}}">
 {{name}}
@@ -50,40 +44,44 @@
 {{else}}
 {{name}}
 {{/if}}
-</td>
-<td class="text-right">
-{{total_value}}
-</td>
-<td class="text-right">
+</div>
+<div class="col-md-1 text-right">
 <input type="text" class="item_property input text-right" data-property="quantity" value="{{quantity}}">
-</td>
-<td class="text-right">
+</div>
+<div class="col-md-1 text-right">
+{{total_value}}
+</div>
+<div class="col-md-1 text-right">
 <button type="button" class="btn btn-link btn-info button_edit" data-toggle="collapse" data-target="#edit_{{this._id.toHexString}}"><span class="glyphicon glyphicon-edit"></span></button>
-</td>
-<td class="text-right">
+</div>
+<div class="col-md-1 text-right">
 <button type="button" class="btn btn-link btn-danger button_delete"><span class="glyphicon glyphicon-trash"></span></button>
-</td>
-</tr>
-<tr>
-<td colspan="5" class="hiddenRow">
-<div class="collapse accordian-body" id="edit_{{this._id.toHexString}}">
+</div>
+</div>
+<div class="row collapse accordian-body" id="edit_{{this._id.toHexString}}">
 <div class="panel panel-default">
 <div class="panel-body">
-{{#if is_magic}}
-{{> details_magic}}
+{{#if is_wondrous}}
+{{> details_wondrous}}
 {{/if}}
 {{#if is_armor}}
 {{> details_armor}}
 {{/if}}
+{{#if is_weapon}}
+{{> details_weapon}}
+{{/if}}
+{{#if is_equipment}}
+{{> details_equipment}}
+{{/if}}
+{{#if is_treasure}}
+{{> details_treasure}}
+{{/if}}
 </div>
 </div>
 </div>
-</td>
-<td>&nbsp;</td>
-</tr>
 </template>
 
-<template name="details_magic">
+<template name="details_wondrous">
 <table class="table">
 <tr>
 <td colspan="2">
@@ -130,6 +128,12 @@
     <input type="text" class="item_property form-control" data-property="aura_type" value={{aura_type}}>
     </div>
 </td>
+<td>
+    <div class="form-group">
+    <label for="enchantment">Additional Enchantment</label>
+    <input type="text" class="item_property form-control" data-property="enchantment" value={{enchantment}}>
+    </div>
+</td>
 </tr>
 <tr>
 <td colspan="4">
@@ -168,8 +172,52 @@
 <td>
     <div class="form-group">
     <label for="caster_level">Armor Bonus</label>
-    <input type="text" class="item_property form-control" data_property="bonus" value={{bonus}}>
+    <input type="text" class="item_property form-control" data-property="bonus" value={{bonus}}>
     </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="caster_level">Enchantment</label>
+    <input type="text" class="item_property form-control" data-property="enchantment" value={{enchantment}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="link">Link</label>
+    <input type="text" class="item_property form-control" data-property="link" value={{link}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="notes">Notes</label>
+    <input type="textarea" class="item_property form-control" data-property="notes" value={{notes}}>
+    </div>
+</td>
+</tr>
+</table>
+</template>
+
+<template name="details_treasure">
+<table class="table">
+<tr>
+<td colspan="2">
+    <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="item_property form-control" data-property="name" value={{name}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="value">Value</label>
+    <input type="text" class="item_property form-control" data-property="value" value={{value}}>
+    </div>
+</td>
+<td>
+    &nbsp;
 </td>
 </tr>
 <tr>
@@ -193,10 +241,19 @@
 
 <template name="item_short">
 {{name}}
-{{#if is_magic}}
-<span class="label label-info label-as-badge pull-right">magic</span>
+{{#if is_wondrous}}
+<span class="label label-primary label-as-badge pull-right">wondrous</span>
 {{/if}}
 {{#if is_armor}}
 <span class="label label-success label-as-badge pull-right">armor</span>
+{{/if}}
+{{#if is_weapon}}
+<span class="label label-danger label-as-badge pull-right">weapon</span>
+{{/if}}
+{{#if is_equipment}}
+<span class="label label-info label-as-badge pull-right">equipment</span>
+{{/if}}
+{{#if is_treasure}}
+<span class="label label-warning label-as-badge pull-right">treasure</span>
 {{/if}}
 </template>

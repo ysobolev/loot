@@ -10,6 +10,7 @@ callback-hook@1.0.2
 check@1.0.4
 coffeescript@1.0.5
 dandv:caret-position@2.1.0-3
+dburles:mongo-collection-instances@0.2.6
 ddp@1.0.14
 deps@1.0.6
 ejson@1.0.5
@@ -43,6 +44,7 @@ reactive-var@1.0.4
 reload@1.1.2
 retry@1.0.2
 routepolicy@1.0.4
+rubaxa:sortable@1.0.1
 session@1.0.5
 spacebars@1.0.5
 spacebars-compiler@1.0.4
