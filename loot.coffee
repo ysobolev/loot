@@ -27,7 +27,7 @@ if Meteor.isClient
 
   Template.item.helpers
     total_value: () -> this.value * this.quantity
-    is_wondrous: () -> this.type == "wondrous"
+    is_magic: () -> this.type == "magic"
     is_armor: () -> this.type == "armor"
     is_weapon: () -> this.type == "weapon"
     is_equipment: () -> this.type == "equipment"
@@ -43,7 +43,7 @@ if Meteor.isClient
       Inventory.update this._id, $set: obj
 
   Template.item_short.helpers
-    is_wondrous: () -> this.type == "wondrous"
+    is_magic: () -> this.type == "magic"
     is_armor: () -> this.type == "armor"
     is_weapon: () -> this.type == "weapon"
     is_equipment: () -> this.type == "equipment"
@@ -52,11 +52,11 @@ if Meteor.isClient
 if Meteor.isServer
   Meteor.startup () ->
     Items.remove {}
-    wondrous = JSON.parse Assets.getText "wondrous.json"
+    magic = JSON.parse Assets.getText "magic.json"
     armors = JSON.parse Assets.getText "armor.json"
     gems = JSON.parse Assets.getText "gems.json"
     coins = JSON.parse Assets.getText "coins.json"
-    for item in wondrous
+    for item in magic
       Items.insert item
     for armor in armors
       Items.insert armor

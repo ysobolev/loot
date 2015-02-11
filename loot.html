@@ -61,8 +61,8 @@
 <div class="row collapse accordian-body" id="edit_{{this._id.toHexString}}">
 <div class="panel panel-default">
 <div class="panel-body">
-{{#if is_wondrous}}
-{{> details_wondrous}}
+{{#if is_magic}}
+{{> details_magic}}
 {{/if}}
 {{#if is_armor}}
 {{> details_armor}}
@@ -81,7 +81,7 @@
 </div>
 </template>
 
-<template name="details_wondrous">
+<template name="details_magic">
 <table class="table">
 <tr>
 <td colspan="2">
@@ -241,8 +241,8 @@
 
 <template name="item_short">
 {{name}}
-{{#if is_wondrous}}
-<span class="label label-primary label-as-badge pull-right">wondrous</span>
+{{#if is_magic}}
+<span class="label label-primary label-as-badge pull-right">magic</span>
 {{/if}}
 {{#if is_armor}}
 <span class="label label-success label-as-badge pull-right">armor</span>
