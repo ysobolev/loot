@@ -1,4 +1,5 @@
 import csv
+import json
 
 def true(x):
     try:
@@ -22,7 +23,7 @@ for row in reader:
     names.append(row["Name"])
     item = {}
     item["name"] = row["Name"]
-    item["type"] = "magic"
+    item["type"] = "wondrous"
     item["caster_level"] = row["CL"].lower()
     item["description"] = row["Description"]
     item["slot"] = row["Slot"]
@@ -100,10 +101,12 @@ for row in reader:
 
     items.append(item)
 
-import pymongo
-con = pymongo.MongoClient("127.0.0.1", 3001)
-meteor = con["meteor"]
+json.dump(items, open("wondrous.json", "w"))
+
+#import pymongo
+#con = pymongo.MongoClient("127.0.0.1", 3001)
+#meteor = con["meteor"]
 #meteor["items"].remove({})
-for item in items:
-    meteor["items"].insert(item)
+#for item in items:
+#    meteor["items"].insert(item)
 
