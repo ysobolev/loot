@@ -54,11 +54,14 @@ if Meteor.isServer
     Items.remove {}
     magic = JSON.parse Assets.getText "magic.json"
     armors = JSON.parse Assets.getText "armor.json"
+    eastern_armors = JSON.parse Assets.getText "eastern_armor.json"
     gems = JSON.parse Assets.getText "gems.json"
     coins = JSON.parse Assets.getText "coins.json"
     for item in magic
       Items.insert item
     for armor in armors
+      Items.insert armor
+    for armor in eastern_armors
       Items.insert armor
     for gem in gems
       Items.insert gem
