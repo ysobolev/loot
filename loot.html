@@ -3,8 +3,23 @@
 </head>
 
 <body>
-<div class="container-fluid">
-  <header><h1>Welcome to Nalita's Bag of Holding!</h1></header>
+</body>
+
+<template name="welcome">
+<div class="container">
+<header><h1>Welcome to Nalita's Storage Emporium!</h1></header>
+<p><b>Nalita:</b> Hi, I'm Nalita. I am a Samsaran Arcanist with a penchant for throwing fireballs. I also love to collect bags of holding. <br> Does your party need a shared treasure pool? How about using one of these?</p>
+<br>
+
+<a href="{{random}}">Random Bag of Holding</a>
+</div>
+</template>
+
+<template name="main">
+<div class="container">
+  <br>
+  <header><h1>Bag of Holding</h1></header>
+  <p>This is bag <a href="{{bag}}">{{bag}}</a>. Please save the link for future access.</p>
   <br>
   <div class="row">
   <div class="col-md-6 col-xs-6">
@@ -21,8 +36,9 @@
   </div>
   {{/sortable}}
   <br>
+  <p>You can also <a href="#" id="transfer">transfer</a> the contents to another bag.</p>
 </div>
-</body>
+</template>
 
 <template name="item">
 <div class="row">
