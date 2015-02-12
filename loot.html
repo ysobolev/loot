@@ -6,26 +6,17 @@
 <div class="container-fluid">
   <header><h1>Welcome to Nalita's Bag of Holding!</h1></header>
   <br>
-  <form>
   <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-6 col-xs-6">
   {{> inputAutocomplete settings=settings id="ac_name" class="input-large form-control" autocomplete="off" placeholder="Add Item"}}
   </div>
-  <div class="col-md-4">
+  <div class="col-md-2 col-xs-2">
   <button type="button" class="btn btn-primary" id="button_add_item"><span class="glyphicon glyphicon-plus"></span></button>
   </div>
   </div>
-  </form>
   <br>
-  <div class="row header">
-  <div class="col-md-4">Item</div>
-  <div class="col-md-1">Quantity</div>
-  <div class="col-md-1">Total Value</div>
-  <div class="col-md-1">Edit</div>
-  <div class="col-md-1">Trash</div>
-  </div>
-  {{#sortable items=inventory}}
-  <div class="sortable">
+  {{#sortable items=inventory options=sortable_options}}
+  <div class="item">
   {{> item}}
   </div>
   {{/sortable}}
@@ -35,7 +26,7 @@
 
 <template name="item">
 <div class="row">
-<div class="col-md-4">
+<div class="col-md-4 col-xs-6">
 {{enchantment}}
 {{#if link}}
 <a href="{{link}}">
@@ -45,20 +36,14 @@
 {{name}}
 {{/if}}
 </div>
-<div class="col-md-1 text-right">
+<div class="col-md-4 col-xs-6 text-right">
 <input type="text" class="item_property input text-right" data-property="quantity" value="{{quantity}}">
-</div>
-<div class="col-md-1 text-right">
-{{total_value}}
-</div>
-<div class="col-md-1 text-right">
-<button type="button" class="btn btn-link btn-info button_edit" data-toggle="collapse" data-target="#edit_{{this._id.toHexString}}"><span class="glyphicon glyphicon-edit"></span></button>
-</div>
-<div class="col-md-1 text-right">
-<button type="button" class="btn btn-link btn-danger button_delete"><span class="glyphicon glyphicon-trash"></span></button>
+<button type="button" class="btn btn-link button_edit" data-toggle="collapse" data-target="#edit_{{this._id.toHexString}}"><span class="glyphicon glyphicon-edit"></span></button>
+<button type="button" class="btn btn-link button_delete"><span class="glyphicon glyphicon-trash"></span></button>
 </div>
 </div>
 <div class="row collapse accordian-body" id="edit_{{this._id.toHexString}}">
+<div class="col-md-8 col-xs-12">
 <div class="panel panel-default">
 <div class="panel-body">
 {{#if is_magic}}
@@ -76,6 +61,7 @@
 {{#if is_treasure}}
 {{> details_treasure}}
 {{/if}}
+</div>
 </div>
 </div>
 </div>

@@ -12,6 +12,8 @@ if Meteor.isClient
         field: "name"
         template: Template.item_short
       ]
+    sortable_options: () ->
+      draggable: ".item"
 
   Template.body.events
     "click #button_add_item": (event) ->
