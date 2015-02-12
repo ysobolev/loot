@@ -3,7 +3,13 @@ Inventory = new Mongo.Collection("inventory")
 
 if Meteor.isClient
   Router.route "/", () -> this.render "welcome"
-  Router.route "/:bag", () -> this.render "main", data: bag: this.params.bag
+  Router.route "/:bag", () ->
+    this.render "main", data: bag: this.params.bag
+   ,
+    loadingTemplate: "loading"
+    waitOn: () ->
+      [Meteor.subscribe("inventory", this.params.bag),
+       Meteor.subscribe ("items")]
 
   Template.welcome.helpers
     random: () ->
@@ -30,6 +36,8 @@ if Meteor.isClient
     "click #button_add_item": (event) ->
       event.preventDefault()
       item_name = $("#ac_name").val()
+      if not item_name? or item_name == "":
+        return
       item = Items.findOne {name:item_name}
       if not item?
         item = {name:item_name}
@@ -90,4 +98,15 @@ if Meteor.isServer
       Items.insert gem
     for coin in coins
       Items.insert coin
+
+  Items.deny
+    insert: () -> true
+    update: () -> true
+    remove: () -> true
+
+  Meteor.publish "inventory", (bag) ->
+    return Inventory.find bag: bag
+  
+  Meteor.publish "items", () ->
+    return Items.find {}
 
