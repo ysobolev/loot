@@ -36,7 +36,7 @@ if Meteor.isClient
     "click #button_add_item": (event) ->
       event.preventDefault()
       item_name = $("#ac_name").val()
-      if not item_name? or item_name == "":
+      if not item_name? or item_name == ""
         return
       item = Items.findOne {name:item_name}
       if not item?
