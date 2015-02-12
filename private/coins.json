@@ -1,1 +1,22 @@
-[{"type": "treasure", "name": "Copper piece", "value": 0.01}, {"type": "treasure", "name": "Silver piece", "value": 0.1}, {"type": "treasure", "name": "Gold piece", "value": 1}, {"type": "treasure", "name": "Platinum piece", "value": 10}]
+[
+   {
+      "value" : 0.01,
+      "name" : "Copper piece",
+      "type" : "treasure"
+   },
+   {
+      "type" : "treasure",
+      "name" : "Silver piece",
+      "value" : 0.1
+   },
+   {
+      "value" : 1,
+      "type" : "treasure",
+      "name" : "Gold piece"
+   },
+   {
+      "value" : 10,
+      "name" : "Platinum piece",
+      "type" : "treasure"
+   }
+]

@@ -1,1 +1,307 @@
-[{"type": "treasure", "name": "Agate", "value": 10}, {"type": "treasure", "name": "Azurite", "value": 10}, {"type": "treasure", "name": "Blue quartz", "value": 10}, {"type": "treasure", "name": "Hematite", "value": 10}, {"type": "treasure", "name": "Lapis lazuli", "value": 10}, {"type": "treasure", "name": "Malachite", "value": 10}, {"type": "treasure", "name": "Obsidian", "value": 10}, {"type": "treasure", "name": "Rhodochrosite", "value": 10}, {"type": "treasure", "name": "Tigereye", "value": 10}, {"type": "treasure", "name": "Turquoise", "value": 10}, {"type": "treasure", "name": "Freshwater (irregular) pearl", "value": 10}, {"type": "treasure", "name": "Amber", "value": 100}, {"type": "treasure", "name": "Amethyst", "value": 100}, {"type": "treasure", "name": "Chrysoberyl", "value": 100}, {"type": "treasure", "name": "Coral", "value": 100}, {"type": "treasure", "name": "Red garnet", "value": 100}, {"type": "treasure", "name": "Brown-green garnet", "value": 100}, {"type": "treasure", "name": "Jade", "value": 100}, {"type": "treasure", "name": "Jet", "value": 100}, {"type": "treasure", "name": "White pearl", "value": 100}, {"type": "treasure", "name": "Golden pearl", "value": 100}, {"type": "treasure", "name": "Silver pearl", "value": 100}, {"type": "treasure", "name": "Red spinel", "value": 100}, {"type": "treasure", "name": "Red-brown spinel", "value": 100}, {"type": "treasure", "name": "Deep green spinel", "value": 100}, {"type": "treasure", "name": "Tourmaline", "value": 100}, {"type": "treasure", "name": "Bloodstone", "value": 50}, {"type": "treasure", "name": "Carnelian", "value": 50}, {"type": "treasure", "name": "Chalcedony", "value": 50}, {"type": "treasure", "name": "Chrysoprase", "value": 50}, {"type": "treasure", "name": "Citrine", "value": 50}, {"type": "treasure", "name": "Jasper", "value": 50}, {"type": "treasure", "name": "Moonstone", "value": 50}, {"type": "treasure", "name": "Onyx", "value": 50}, {"type": "treasure", "name": "Peridot", "value": 50}, {"type": "treasure", "name": "Rock crystal (clear quartz)", "value": 50}, {"type": "treasure", "name": "Sard", "value": 50}, {"type": "treasure", "name": "Sardonyx", "value": 50}, {"type": "treasure", "name": "Rose quartz", "value": 50}, {"type": "treasure", "name": "Smoky quartz", "value": 50}, {"type": "treasure", "name": "Star rose quartz", "value": 50}, {"type": "treasure", "name": "Zircon", "value": 50}, {"type": "treasure", "name": "Alexandrite", "value": 500}, {"type": "treasure", "name": "Aquamarine", "value": 500}, {"type": "treasure", "name": "Violet garnet", "value": 500}, {"type": "treasure", "name": "Black pearl", "value": 500}, {"type": "treasure", "name": "Deep blue spinel", "value": 500}, {"type": "treasure", "name": "Golden yellow topaz", "value": 500}, {"type": "treasure", "name": "Emerald", "value": 1000}, {"type": "treasure", "name": "White opal", "value": 1000}, {"type": "treasure", "name": "Black opal", "value": 1000}, {"type": "treasure", "name": "Fire opal", "value": 1000}, {"type": "treasure", "name": "Fiery yellow corundum", "value": 1000}, {"type": "treasure", "name": "Rich purple corundum", "value": 1000}, {"type": "treasure", "name": "Blue sapphire", "value": 1000}, {"type": "treasure", "name": "Black star sapphire", "value": 1000}, {"type": "treasure", "name": "Blue star sapphire", "value": 1000}, {"type": "treasure", "name": "Clearest bright green emerald", "value": 5000}, {"type": "treasure", "name": "Diamond", "value": 5000}, {"type": "treasure", "name": "Jacinth", "value": 5000}, {"type": "treasure", "name": "Ruby", "value": 5000}]
+[
+   {
+      "name" : "Agate",
+      "value" : 10,
+      "type" : "treasure"
+   },
+   {
+      "name" : "Azurite",
+      "type" : "treasure",
+      "value" : 10
+   },
+   {
+      "value" : 10,
+      "type" : "treasure",
+      "name" : "Blue quartz"
+   },
+   {
+      "name" : "Hematite",
+      "value" : 10,
+      "type" : "treasure"
+   },
+   {
+      "name" : "Lapis lazuli",
+      "type" : "treasure",
+      "value" : 10
+   },
+   {
+      "name" : "Malachite",
+      "value" : 10,
+      "type" : "treasure"
+   },
+   {
+      "value" : 10,
+      "type" : "treasure",
+      "name" : "Obsidian"
+   },
+   {
+      "type" : "treasure",
+      "value" : 10,
+      "name" : "Rhodochrosite"
+   },
+   {
+      "name" : "Tigereye",
+      "value" : 10,
+      "type" : "treasure"
+   },
+   {
+      "name" : "Turquoise",
+      "value" : 10,
+      "type" : "treasure"
+   },
+   {
+      "value" : 10,
+      "type" : "treasure",
+      "name" : "Freshwater (irregular) pearl"
+   },
+   {
+      "type" : "treasure",
+      "value" : 100,
+      "name" : "Amber"
+   },
+   {
+      "type" : "treasure",
+      "value" : 100,
+      "name" : "Amethyst"
+   },
+   {
+      "name" : "Chrysoberyl",
+      "value" : 100,
+      "type" : "treasure"
+   },
+   {
+      "name" : "Coral",
+      "type" : "treasure",
+      "value" : 100
+   },
+   {
+      "type" : "treasure",
+      "value" : 100,
+      "name" : "Red garnet"
+   },
+   {
+      "value" : 100,
+      "type" : "treasure",
+      "name" : "Brown-green garnet"
+   },
+   {
+      "name" : "Jade",
+      "type" : "treasure",
+      "value" : 100
+   },
+   {
+      "type" : "treasure",
+      "value" : 100,
+      "name" : "Jet"
+   },
+   {
+      "value" : 100,
+      "type" : "treasure",
+      "name" : "White pearl"
+   },
+   {
+      "value" : 100,
+      "type" : "treasure",
+      "name" : "Golden pearl"
+   },
+   {
+      "type" : "treasure",
+      "value" : 100,
+      "name" : "Silver pearl"
+   },
+   {
+      "value" : 100,
+      "type" : "treasure",
+      "name" : "Red spinel"
+   },
+   {
+      "name" : "Red-brown spinel",
+      "type" : "treasure",
+      "value" : 100
+   },
+   {
+      "name" : "Deep green spinel",
+      "value" : 100,
+      "type" : "treasure"
+   },
+   {
+      "type" : "treasure",
+      "value" : 100,
+      "name" : "Tourmaline"
+   },
+   {
+      "type" : "treasure",
+      "value" : 50,
+      "name" : "Bloodstone"
+   },
+   {
+      "name" : "Carnelian",
+      "value" : 50,
+      "type" : "treasure"
+   },
+   {
+      "type" : "treasure",
+      "value" : 50,
+      "name" : "Chalcedony"
+   },
+   {
+      "type" : "treasure",
+      "value" : 50,
+      "name" : "Chrysoprase"
+   },
+   {
+      "type" : "treasure",
+      "value" : 50,
+      "name" : "Citrine"
+   },
+   {
+      "name" : "Jasper",
+      "value" : 50,
+      "type" : "treasure"
+   },
+   {
+      "type" : "treasure",
+      "value" : 50,
+      "name" : "Moonstone"
+   },
+   {
+      "name" : "Onyx",
+      "type" : "treasure",
+      "value" : 50
+   },
+   {
+      "value" : 50,
+      "type" : "treasure",
+      "name" : "Peridot"
+   },
+   {
+      "value" : 50,
+      "type" : "treasure",
+      "name" : "Rock crystal (clear quartz)"
+   },
+   {
+      "name" : "Sard",
+      "value" : 50,
+      "type" : "treasure"
+   },
+   {
+      "name" : "Sardonyx",
+      "type" : "treasure",
+      "value" : 50
+   },
+   {
+      "name" : "Rose quartz",
+      "type" : "treasure",
+      "value" : 50
+   },
+   {
+      "type" : "treasure",
+      "value" : 50,
+      "name" : "Smoky quartz"
+   },
+   {
+      "name" : "Star rose quartz",
+      "value" : 50,
+      "type" : "treasure"
+   },
+   {
+      "type" : "treasure",
+      "value" : 50,
+      "name" : "Zircon"
+   },
+   {
+      "name" : "Alexandrite",
+      "type" : "treasure",
+      "value" : 500
+   },
+   {
+      "type" : "treasure",
+      "value" : 500,
+      "name" : "Aquamarine"
+   },
+   {
+      "name" : "Violet garnet",
+      "value" : 500,
+      "type" : "treasure"
+   },
+   {
+      "value" : 500,
+      "type" : "treasure",
+      "name" : "Black pearl"
+   },
+   {
+      "value" : 500,
+      "type" : "treasure",
+      "name" : "Deep blue spinel"
+   },
+   {
+      "value" : 500,
+      "type" : "treasure",
+      "name" : "Golden yellow topaz"
+   },
+   {
+      "value" : 1000,
+      "type" : "treasure",
+      "name" : "Emerald"
+   },
+   {
+      "name" : "White opal",
+      "value" : 1000,
+      "type" : "treasure"
+   },
+   {
+      "name" : "Black opal",
+      "type" : "treasure",
+      "value" : 1000
+   },
+   {
+      "value" : 1000,
+      "type" : "treasure",
+      "name" : "Fire opal"
+   },
+   {
+      "name" : "Fiery yellow corundum",
+      "value" : 1000,
+      "type" : "treasure"
+   },
+   {
+      "type" : "treasure",
+      "value" : 1000,
+      "name" : "Rich purple corundum"
+   },
+   {
+      "type" : "treasure",
+      "value" : 1000,
+      "name" : "Blue sapphire"
+   },
+   {
+      "type" : "treasure",
+      "value" : 1000,
+      "name" : "Black star sapphire"
+   },
+   {
+      "value" : 1000,
+      "type" : "treasure",
+      "name" : "Blue star sapphire"
+   },
+   {
+      "name" : "Clearest bright green emerald",
+      "value" : 5000,
+      "type" : "treasure"
+   },
+   {
+      "name" : "Diamond",
+      "type" : "treasure",
+      "value" : 5000
+   },
+   {
+      "type" : "treasure",
+      "value" : 5000,
+      "name" : "Jacinth"
+   },
+   {
+      "value" : 5000,
+      "type" : "treasure",
+      "name" : "Ruby"
+   }
+]

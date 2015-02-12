@@ -1,112 +1,99 @@
 import csv
 import json
 
-def true(x):
-    try:
-        x = int(x)
-        if x:
-            return True
-        return False
-    except:
-        return False
+class Item:
+    def __init__(self, name):
+        self.name = name
+        self.caster_level = set()
+        self.description = set()
+        self.base_item = set()
+        self.link = set()
+        self.slot = set()
+        self.value = set()
+        self.descriptor = set()
+        self.weight = set()
+        self.school = set()
+        self.strength = set()
 
-items = []
-names = []
-itemlist = open("items.csv")
-fields = ['Name', 'Purchase Price (gp)', 'Description', 'Aura_Strength', 'Aura_School1', 'Aura_School2', 'Aura_School3', 'Aura_School4', '(subschool1)', '(subschool2)', '[Descriptor1]', '[Descriptor2]', '[Descriptor3]', 'CL', 'Slot', 'Weight (lbs.)', 'Crafting Requirements', 'Craft Cost (gp)', 'Group', 'Source', 'AL', 'Int', 'Wis', 'Cha', 'Ego', 'Communication', 'Senses', 'Powers', 'MagicItems', 'Destruction', 'MinorArtifactFlag', 'MajorArtifactFlag', 'Abjuration', 'Conjuration', 'Divination', 'Enchantment', 'Evocation', 'Necromancy', 'Transmutation', 'AuraStrength', 'WeightValue', 'PriceValue', 'CostValue', 'Languages', 'BaseItem', 'LinkText', 'id', 'Mythic', 'LegendaryWeapon', 'Illusion', 'Universal']
-reader = csv.DictReader(itemlist, fields)
-for row in reader:
-    if not row["Name"]:
-        continue
-    if row["Name"] in names:
-        continue
-    names.append(row["Name"])
-    item = {}
-    item["name"] = row["Name"]
-    item["type"] = "wondrous"
-    item["caster_level"] = row["CL"].lower()
-    item["description"] = row["Description"]
-    item["slot"] = row["Slot"]
-    item["value"] = 0
-    link = row["LinkText"]
-    if link.lower() in ["none", "null", "-", "n/a"]:
-        link = ""
-    item["link"] = link
-    item["base_item"] = row["BaseItem"]
-    item["notes"] = ""
-    strengths = set()
-    strengths.add(row["Aura_Strength"].lower())
-    strengths.add(row["AuraStrength"].lower())
-    strengths.discard("none")
-    strengths.discard("null")
-    strengths.discard("")
-    strengths.discard("-")
-    strengths.discard("n/a")
-    item["aura_strength"] = " or ".join(strengths)
-    schools = set()
-    schools.add(row["Aura_School1"].lower())
-    schools.add(row["Aura_School2"].lower())
-    schools.add(row["Aura_School3"].lower())
-    schools.add(row["Aura_School4"].lower())
-    schools.add(row["(subschool1)"].lower())
-    schools.add(row["(subschool2)"].lower())
-    if true(row["Enchantment"]):
-        schools.add("enchantment")
-    if true(row["Necromancy"]):
-        schools.add("necromancy")
-    if true(row["Transmutation"]):
-        schools.add("transmutation")
-    if true(row["Evocation"]):
-        schools.add("evocation")
-    if true(row["Divination"]):
-        schools.add("divination")
-    if true(row["Conjuration"]):
-        schools.add("conjuration")
-    if true(row["Abjuration"]):
-        schools.add("abjuration")
-    schools.discard("none")
-    schools.discard("null")
-    schools.discard("")
-    schools.discard("-")
-    schools.discard("n/a")
-    item["aura_type"] = ", ".join(schools)
-    descriptors = set()
-    descriptors.add(row["[Descriptor1]"].lower())
-    descriptors.add(row["[Descriptor2]"].lower())
-    descriptors.add(row["[Descriptor3]"].lower())
-    descriptors.discard("none")
-    descriptors.discard("null")
-    descriptors.discard("")
-    descriptors.discard("-")
-    descriptors.discard("n/a")
-    item["descriptors"] = ", ".join(descriptors)
-    weights = set()
-    weights.add(row["Weight (lbs.)"].lower())
-    weights.add(row["WeightValue"].lower())
-    weights.discard("none")
-    weights.discard("null")
-    weights.discard("")
-    weights.discard("-")
-    weights.discard("n/a")
-    item["weight"] = " or ".join(weights)
-    values = set()
-    values.add(row["Craft Cost (gp)"].lower())
-    values.add(row["CostValue"].lower())
-    values.discard("none")
-    values.discard("null")
-    values.discard("")
-    values.discard("-")
-    values.discard("n/a")
-    item["value"] = " or ".join(values)
+    def parse(self, row):
+        self.caster_level.add(row["CL"].lower())
+        self.description.add(row["Description"])
+        self.base_item.add(row["BaseItem"].lower())
+        self.link.add(row["LinkText"])
+        self.slot.add(row["Slot"].lower())
+        self.school.add(row["Aura_School1"].lower())
+        self.school.add(row["Aura_School2"].lower())
+        self.school.add(row["Aura_School3"].lower())
+        self.school.add(row["Aura_School4"].lower())
+        self.school.add(row["(subschool1)"].lower())
+        self.school.add(row["(subschool2)"].lower())
+        for school in ["Enchantment", "Necromancy", "Transmutation",
+                "Evocation", "Divination", "Conjuration", "Abjuration"]:
+            try:
+                if int(row[school]):
+                    self.school.add(school.lower())
+            except ValueError as e:
+                pass
+        self.strength.add(row["Aura_Strength"].lower())
+        self.strength.add(row["AuraStrength"].lower())
+        self.descriptor.add(row["[Descriptor1]"].lower())
+        self.descriptor.add(row["[Descriptor2]"].lower())
+        self.descriptor.add(row["[Descriptor3]"].lower())
+        self.weight.add(row["Weight (lbs.)"].lower())
+        self.weight.add(row["WeightValue"].lower())
+        self.value.add(row["Craft Cost (gp)"].lower())
+        self.value.add(row["CostValue"].lower())
 
-    items.append(item)
+        drop = ["null", "none", "-", "", "n/a", "N/A", "NULL", "None", "Null",
+                "None"]
+        self.caster_level.difference_update(drop)
+        self.description.difference_update(drop)
+        self.base_item.difference_update(drop)
+        self.link.difference_update(drop)
+        self.slot.difference_update(drop)
+        self.school.difference_update(drop)
+        self.strength.difference_update(drop)
+        self.descriptor.difference_update(drop)
+        self.weight.difference_update(drop)
+        self.value.difference_update(drop)
 
-json.dump(items, open("wondrous.json", "w"))
+    def as_dict(self):
+        item = {}
+        item["name"] = self.name
+        item["type"] = "magic"
+        item["aura_type"] = ", ".join(self.school)
+        item["aura_strength"] = " or ".join(self.strength)
+        item["descriptors"] = " ".join(self.descriptor)
+        item["base_item"] = " or ".join(self.base_item)
+        item["caster_level"] = " or ".join(self.caster_level)
+        item["value"] = " or ".join(self.value)
+        item["weight"] = " or ".join(self.weight)
+        try:
+            item["link"] = self.link.pop()
+        except KeyError as e:
+            item["link"] = ""
+        try:
+            item["description"] = self.description.pop()
+        except KeyError as e:
+            item["description"] = ""
+        return item
 
-#import pymongo
-#con = pymongo.MongoClient("127.0.0.1", 3001)
-#meteor = con["meteor"]
-#meteor["items"].remove({})
-#for item in items:
-#    meteor["items"].insert(item)
+class Encoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Item):
+            return obj.as_dict()
+        return json.JSONEncoder.default(self, obj)
+
+
+items = {}
+with open("items.csv") as item_csv:
+    reader = csv.DictReader(item_csv)
+    for row in reader:
+        name = row["Name"]
+        item = items.setdefault(name, Item(name))
+        item.parse(row)
+ 
+with open("magic.json", "w") as magic_db:
+    encoder = Encoder()
+    magic_db.write(encoder.encode(items.values()))
 
