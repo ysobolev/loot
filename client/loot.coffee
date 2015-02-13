@@ -57,11 +57,6 @@ Template.main.events
 
 Template.item.helpers
   total_value: () -> this.value * this.quantity
-  is_magic: () -> this.type == "magic"
-  is_armor: () -> this.type == "armor"
-  is_weapon: () -> this.type == "weapon"
-  is_equipment: () -> this.type == "equipment"
-  is_treasure: () -> this.type == "treasure"
 
 Template.item.events
   "click .button_delete": (event) ->
@@ -72,10 +67,13 @@ Template.item.events
     obj[property] = event.target.value
     Inventory.update this._id, $set: obj
 
-Template.item_short.helpers
+methods =
   is_magic: () -> this.type == "magic"
   is_armor: () -> this.type == "armor"
   is_weapon: () -> this.type == "weapon"
   is_equipment: () -> this.type == "equipment"
   is_treasure: () -> this.type == "treasure"
+
+for name, method of methods
+  Template.registerHelper name, method
 
