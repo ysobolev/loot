@@ -1,47 +1,17 @@
 <template name="details_armor">
-<table class="table">
-<tr>
-<td colspan="2">
+<div class="row">
+<div class="col-md-6">
     <div class="form-group">
-    <label for="">Name</label>
-    <input type="text" class="item_property form-control" data-property="name" value={{name}}>
-    </div>
-</td>
-<td>
-    <div class="form-group">
-    <label for="">Value</label>
-    <input type="text" class="item_property form-control" data-property="value" value={{value}}>
-    </div>
-</td>
-<td>
-    <div class="form-group">
-    <label for="">Armor Bonus</label>
+    <label>Armor Bonus</label>
     <input type="text" class="item_property form-control" data-property="bonus" value={{bonus}}>
     </div>
-</td>
-<td>
+</div>
+<div class="col-md-6">
     <div class="form-group">
-    <label for="">Enchantment</label>
+    <label>Enchantment</label>
     <input type="text" class="item_property form-control" data-property="enchantment" value={{enchantment}}>
     </div>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-    <div class="form-group">
-    <label for="">Link</label>
-    <input type="text" class="item_property form-control" data-property="link" value={{link}}>
-    </div>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-    <div class="form-group">
-    <label for="">Notes</label>
-    <input type="textarea" class="item_property form-control" data-property="notes" value={{notes}}>
-    </div>
-</td>
-</tr>
-</table>
+</div>
+</div>
 </template>
 

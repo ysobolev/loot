@@ -1,73 +1,43 @@
 <template name="details_magic">
-<table class="table">
-<tr>
-<td colspan="2">
+<div class="row">
+<div class="col-md-4">
     <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" class="item_property form-control" data-property="name" value={{name}}>
-    </div>
-</td>
-<td>
-    <div class="form-group">
-    <label for="value">Value</label>
-    <input type="text" class="item_property form-control" data-property="value" value={{value}}>
-    </div>
-</td>
-<td>
-    <div class="form-group">
-    <label for="caster_level">Caster Level</label>
-    <input type="text" class="item_property form-control" data_property="caster_level" value={{caster_level}}>
-    </div>
-</td>
-</tr>
-<tr>
-<td>
-    <div class="form-group">
-    <label for="base_item">Base Item</label>
+    <label>Base Item</label>
     <input type="text" class="item_property form-control" data-property="base_item" value={{base_item}}>
     </div>
-</td>
-<td>
+</div>
+<div class="col-md-4">
     <div class="form-group">
-    <label for="slot">Slot</label>
+    <label>Slot</label>
     <input type="text" class="item_property form-control" data-property="slot" value={{slot}}>
     </div>
-</td>
-<td>
+</div>
+<div class="col-md-4">
     <div class="form-group">
-    <label for="aura_strength">Aura Strength</label>
-    <input type="text" class="item_property form-control" data-property="aura_strength" value={{aura_strength}}>
+    <label>Caster Level</label>
+    <input type="text" class="item_property form-control" data_property="caster_level" value={{caster_level}}>
     </div>
-</td>
-<td>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
     <div class="form-group">
-    <label for="aura_type">Aura Type</label>
-    <input type="text" class="item_property form-control" data-property="aura_type" value={{aura_type}}>
-    </div>
-</td>
-<td>
-    <div class="form-group">
-    <label for="enchantment">Additional Enchantment</label>
+    <label>Additional Enchantment</label>
     <input type="text" class="item_property form-control" data-property="enchantment" value={{enchantment}}>
     </div>
-</td>
-</tr>
-<tr>
-<td colspan="4">
+</div>
+<div class="col-md-4">
     <div class="form-group">
-    <label for="link">Link</label>
-    <input type="text" class="item_property form-control" data-property="link" value={{link}}>
+    <label>Aura Strength</label>
+    <input type="text" class="item_property form-control" data-property="aura_strength" value={{aura_strength}}>
     </div>
-</td>
-</tr>
-<tr>
-<td colspan="4">
+</div>
+<div class="col-md-4">
     <div class="form-group">
-    <label for="notes">Notes</label>
-    <input type="textarea" class="item_property form-control" data-property="notes" value={{notes}}>
+    <label>Aura Type</label>
+    <input type="text" class="item_property form-control" data-property="aura_type" value={{aura_type}}>
     </div>
-</td>
-</tr>
-</table>
+</div>
+</div>
 </template>
 

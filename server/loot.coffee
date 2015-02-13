@@ -9,6 +9,7 @@ Meteor.startup () ->
   weapons = JSON.parse Assets.getText "weapons.json"
   gems = JSON.parse Assets.getText "gems.json"
   coins = JSON.parse Assets.getText "coins.json"
+  specials = JSON.parse Assets.getText "special.json"
   for item in magic
     Items.insert item
   for armor in armors
@@ -21,6 +22,8 @@ Meteor.startup () ->
     Items.insert gem
   for coin in coins
     Items.insert coin
+  for special in specials
+    Items.insert special
 
 Items.deny
   insert: () -> true

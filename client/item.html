@@ -20,14 +20,15 @@
 <div class="col-md-8 col-xs-12">
 <div class="panel panel-default">
 <div class="panel-body">
+{{> details_item}}
 {{#if is_magic}}
 {{> details_magic}}
 {{/if}}
-{{#if is_armor}}
-{{> details_armor}}
-{{/if}}
 {{#if is_weapon}}
 {{> details_weapon}}
+{{/if}}
+{{#if is_armor}}
+{{> details_armor}}
 {{/if}}
 {{#if is_equipment}}
 {{> details_equipment}}

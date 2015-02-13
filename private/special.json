@@ -1,0 +1,24 @@
+[
+   {
+      "damage_s" : "1d4",
+      "special" : "performance, trip",
+      "cost" : 50,
+      "weapon_type" : "b",
+      "weight" : "",
+      "class" : "ranged ",
+      "range" : "20 ft.",
+      "name" : "Shield, throwing",
+      "damage_m" : "1d6",
+      "critical" : "x2",
+      "type" : "weapon armor",
+      "value" : 25,
+      "proficiency" : "exotic",
+      "max_dex" : "",
+      "arcane_failure" : "",
+      "speed_20" : "",
+      "check_penalty" : "",
+      "speed_30" : "",
+      "link" : "http://www.d20pfsrd.com/equipment---final/armor/shield-throwing",
+      "bonus" : ""
+   }
+]

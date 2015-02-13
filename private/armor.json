@@ -544,19 +544,5 @@
       "max_dex" : "",
       "cost" : "+10",
       "speed_20" : ""
-   },
-   {
-      "max_dex" : "",
-      "cost" : "+50",
-      "arcane_failure" : "",
-      "value" : "25.0",
-      "speed_20" : "",
-      "check_penalty" : "",
-      "speed_30" : "",
-      "weight" : "",
-      "name" : "Shield, throwing",
-      "link" : "http://www.d20pfsrd.com/equipment---final/armor/shield-throwing",
-      "type" : "armor",
-      "bonus" : ""
    }
 ]

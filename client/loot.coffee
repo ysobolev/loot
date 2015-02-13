@@ -68,11 +68,11 @@ Template.item.events
     Inventory.update this._id, $set: obj
 
 methods =
-  is_magic: () -> this.type == "magic"
-  is_armor: () -> this.type == "armor"
-  is_weapon: () -> this.type == "weapon"
-  is_equipment: () -> this.type == "equipment"
-  is_treasure: () -> this.type == "treasure"
+  is_magic: () -> (this.type.indexOf "magic") > -1
+  is_armor: () -> (this.type.indexOf "armor") > -1
+  is_weapon: () -> (this.type.indexOf "weapon") > -1
+  is_equipment: () -> (this.type.indexOf "equipment") > -1
+  is_treasure: () -> (this.type.indexOf "treasure") > -1
 
 for name, method of methods
   Template.registerHelper name, method
