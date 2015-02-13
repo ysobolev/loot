@@ -1,31 +1,33 @@
 <template name="loading">
-<div class="container">
+<div class="container-fluid">
 <br>
-<h2>Hold on. I'm fetching your stuff...</h2>
+<h4>Hold on. I'm fetching your stuff...</h4>
 </div>
 </template>
 
 <template name="list">
-<div class="container">
+<div class="container-fluid">
   <br>
   <header><h1>Bag of Holding</h1></header>
   <p>This is bag <a href="{{bag}}">{{bag}}</a>. Please save the link for future access.</p>
   <br>
   <div class="row">
-  <div class="col-md-6 col-xs-6">
+  <div class="col-md-6 col-sm-8 col-xs-8">
   {{> inputAutocomplete settings=autocomplete_settings id="ac_name" class="input-large form-control" autocomplete="off" placeholder="Add Item"}}
   </div>
-  <div class="col-md-2 col-xs-2">
+  <div class="col-md-2 col-sm-2 col-xs-1">
   <button type="button" class="btn btn-primary" id="button_add_item"><span class="glyphicon glyphicon-plus"></span></button>
   </div>
   </div>
   <br>
-  <div>
+  <div class="row">
+  <div class="col-md-8 col-sm-12, col-xs-12">
   {{#sortable items=inventory options=sortable_settings}}
   <div class="item">
   {{> item}}
   </div>
   {{/sortable}}
+  </div>
   </div>
   <br>
   <p>You can also <a href="#" id="transfer">transfer</a> the contents to another bag.</p>

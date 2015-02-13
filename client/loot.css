@@ -1,13 +1,16 @@
 /* CSS declarations go here */
 body {
-/*        background-image: url("background.jpg");
-        font: 400 3.5em/125% 'Handlee', Helvetica, Sans-serif;*/
+/*        background-image: url("background.jpg"); */
+    font-family: 'Handlee', cursive;
 }
 .table tbody>tr>td{
-            vertical-align: middle;
+    vertical-align: middle;
 }
 
 .label-as-badge {
-            border-radius: 1em;
+    border-radius: 1em;
 }
 
+.compact {
+    padding: 1px;
+}

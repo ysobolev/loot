@@ -1,6 +1,6 @@
 <template name="item">
 <div class="row">
-<div class="col-md-4 col-xs-6">
+<div class="col-md-8 col-sm-6 col-xs-12">
 {{enchantment}}
 {{#if link}}
 <a href="{{link}}">
@@ -10,10 +10,13 @@
 {{name}}
 {{/if}}
 </div>
-<div class="col-md-4 col-xs-6 text-right">
-<input type="text" class="item_property input text-right" data-property="quantity" value="{{quantity}}">
-<button type="button" class="btn btn-link button_edit" data-toggle="collapse" data-target="#edit_{{this._id.toHexString}}"><span class="glyphicon glyphicon-edit"></span></button>
-<button type="button" class="btn btn-link button_delete"><span class="glyphicon glyphicon-trash"></span></button>
+<div class="col-md-2 col-sm-3 col-xs-6 text-right">
+<input type="text" class="item_property form-control input-sm text-right" data-property="quantity" value="{{quantity}}">
+</div>
+<div class="col-md-2 col-sm-3 col-xs-6 text-right">
+<button type="button" class="btn btn-link button_edit compact" data-toggle="collapse" data-target="#edit_{{this._id.toHexString}}"><span class="glyphicon glyphicon-edit"></span></button>
+<button type="button" class="btn btn-link button_delete compact"><span class="glyphicon glyphicon-trash"></span></button>
+<button type="button" class="btn btn-link button_move handle compact"><span class="glyphicon glyphicon-move"></span></button>
 </div>
 </div>
 <div class="row collapse accordian-body" id="edit_{{this._id.toHexString}}">
@@ -40,6 +43,7 @@
 </div>
 </div>
 </div>
+<br>
 </template>
 
 <template name="item_short">
