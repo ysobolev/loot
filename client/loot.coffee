@@ -3,7 +3,7 @@ Inventory = new Mongo.Collection("inventory")
 
 Router.route "/", () -> this.render "welcome"
 Router.route "/:bag", () ->
-  this.render "main", data: bag: this.params.bag
+  this.render "list", data: bag: this.params.bag
  ,
   loadingTemplate: "loading"
   waitOn: () ->
@@ -18,7 +18,7 @@ Template.welcome.helpers
       bag += chars.charAt Math.floor Math.random() * chars.length
     return bag
 
-Template.main.helpers
+Template.list.helpers
   inventory: () -> Inventory.find {bag: this.bag}
   autocomplete_settings: () ->
     position: "bottom"
@@ -31,7 +31,7 @@ Template.main.helpers
   sortable_settings: () ->
     draggable: ".item"
 
-Template.main.events
+Template.list.events
   "click #button_add_item": (event) ->
     event.preventDefault()
     item_name = $("#ac_name").val()
@@ -54,7 +54,6 @@ Template.main.events
       Inventory.find(bag: this.bag).forEach (item) ->
         Inventory.update item._id, $set: bag: new_bag
       Router.go("/" + new_bag)
-
 
 Template.item.helpers
   total_value: () -> this.value * this.quantity
