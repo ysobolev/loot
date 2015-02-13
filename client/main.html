@@ -13,18 +13,20 @@
   <br>
   <div class="row">
   <div class="col-md-6 col-xs-6">
-  {{> inputAutocomplete settings=settings id="ac_name" class="input-large form-control" autocomplete="off" placeholder="Add Item"}}
+  {{> inputAutocomplete settings=autocomplete_settings id="ac_name" class="input-large form-control" autocomplete="off" placeholder="Add Item"}}
   </div>
   <div class="col-md-2 col-xs-2">
   <button type="button" class="btn btn-primary" id="button_add_item"><span class="glyphicon glyphicon-plus"></span></button>
   </div>
   </div>
   <br>
-  {{#sortable items=inventory options=sortable_options}}
+  <div>
+  {{#sortable items=inventory options=sortable_settings}}
   <div class="item">
   {{> item}}
   </div>
   {{/sortable}}
+  </div>
   <br>
   <p>You can also <a href="#" id="transfer">transfer</a> the contents to another bag.</p>
 </div>

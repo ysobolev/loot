@@ -20,7 +20,7 @@ Template.welcome.helpers
 
 Template.main.helpers
   inventory: () -> Inventory.find {bag: this.bag}
-  settings: () ->
+  autocomplete_settings: () ->
     position: "bottom"
     limit: 5
     rules: [
@@ -28,7 +28,7 @@ Template.main.helpers
       field: "name"
       template: Template.item_short
     ]
-  sortable_options: () ->
+  sortable_settings: () ->
     draggable: ".item"
 
 Template.main.events
