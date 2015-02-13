@@ -43,7 +43,8 @@ Template.main.events
     else
       item._id = new Meteor.Collection.ObjectID()
     item.bag = this.bag
-    item.quantity = 1
+    if not item.quantity?
+      item.quantity = 1
     Inventory.insert(item)
   "click #transfer": (event) ->
     event.preventDefault()
