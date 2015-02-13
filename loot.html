@@ -168,25 +168,25 @@
 <tr>
 <td colspan="2">
     <div class="form-group">
-    <label for="name">Name</label>
+    <label for="">Name</label>
     <input type="text" class="item_property form-control" data-property="name" value={{name}}>
     </div>
 </td>
 <td>
     <div class="form-group">
-    <label for="value">Value</label>
+    <label for="">Value</label>
     <input type="text" class="item_property form-control" data-property="value" value={{value}}>
     </div>
 </td>
 <td>
     <div class="form-group">
-    <label for="caster_level">Armor Bonus</label>
+    <label for="">Armor Bonus</label>
     <input type="text" class="item_property form-control" data-property="bonus" value={{bonus}}>
     </div>
 </td>
 <td>
     <div class="form-group">
-    <label for="caster_level">Enchantment</label>
+    <label for="">Enchantment</label>
     <input type="text" class="item_property form-control" data-property="enchantment" value={{enchantment}}>
     </div>
 </td>
@@ -194,7 +194,7 @@
 <tr>
 <td colspan="4">
     <div class="form-group">
-    <label for="link">Link</label>
+    <label for="">Link</label>
     <input type="text" class="item_property form-control" data-property="link" value={{link}}>
     </div>
 </td>
@@ -202,7 +202,54 @@
 <tr>
 <td colspan="4">
     <div class="form-group">
-    <label for="notes">Notes</label>
+    <label for="">Notes</label>
+    <input type="textarea" class="item_property form-control" data-property="notes" value={{notes}}>
+    </div>
+</td>
+</tr>
+</table>
+</template>
+
+<template name="details_weapon">
+<table class="table">
+<tr>
+<td colspan="2">
+    <div class="form-group">
+    <label for="">Name</label>
+    <input type="text" class="item_property form-control" data-property="name" value={{name}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="">Value</label>
+    <input type="text" class="item_property form-control" data-property="value" value={{value}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="">Damage</label>
+    <input type="text" class="item_property form-control" data-property="damage_m" value={{damage_m}}>
+    </div>
+</td>
+<td>
+    <div class="form-group">
+    <label for="">Enchantment</label>
+    <input type="text" class="item_property form-control" data-property="enchantment" value={{enchantment}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="">Link</label>
+    <input type="text" class="item_property form-control" data-property="link" value={{link}}>
+    </div>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+    <div class="form-group">
+    <label for="">Notes</label>
     <input type="textarea" class="item_property form-control" data-property="notes" value={{notes}}>
     </div>
 </td>
