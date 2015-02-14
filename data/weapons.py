@@ -53,19 +53,31 @@ def parse_table(table, proficiency, class_):
         weapons.append(weapon)
     return weapons
 
+def parse_tables(tables):
+    weapons = []
+    for table in tables:
+        type_ = table.find("th").text.lower()
+        type_ = type_.replace(" - Eastern", "")
+        type_ = type_.replace("weapons", "")
+        type_ = type_.replace("melee", "")
+        type_ = type_.replace("weapons", "")
+        type_ = type_.replace("attacks", "")
+        proficiency, class_ = type_.split("\n")
+        proficiency = proficiency[1:-1]
+        weapons.extend(parse_table(table, proficiency, class_))
+    return weapons
+
+weapons = []
+
 data = requests.get("http://www.d20pfsrd.com/equipment---final/weapons").text
 soup = BeautifulSoup(data)
-tables = soup.find("a", {"name":"weapons-simple"}).next.next.next.next.next.next.findAll("table")
-weapons = []
-for table in tables:
-    type_ = table.find("th").text.lower()
-    type_ = type_.replace("weapons", "")
-    type_ = type_.replace("melee", "")
-    type_ = type_.replace("weapons", "")
-    type_ = type_.replace("attacks", "")
-    proficiency, class_ = type_.split("\n")
-    proficiency = proficiency[1:-1]
-    weapons.extend(parse_table(table, proficiency, class_))
+tables = soup.findAll("table")[4:-3]
+weapons.extend(parse_tables(tables))
+
+data = requests.get("http://www.d20pfsrd.com/equipment---final/weapons/eastern-weapons").text
+soup = BeautifulSoup(data)
+tables = soup.findAll("table")[3:]
+weapons.extend(parse_tables(tables))
 
 with open("weapons.json", "w") as output:
     json.dump(weapons, output)
