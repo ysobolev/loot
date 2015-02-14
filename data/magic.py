@@ -86,7 +86,7 @@ class Encoder(json.JSONEncoder):
 
 
 items = {}
-with open("items.csv") as item_csv:
+with open("magic.csv") as item_csv:
     reader = csv.DictReader(item_csv)
     for row in reader:
         name = row["Name"]
