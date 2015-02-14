@@ -13,5 +13,5 @@ If you would like to run your own, you will need to install [Meteor](https://www
 License
 -------
 
-Mot of the data that comes with the project has been scraped from the [Pathfinder](http://www.d20pfsrd.com/) website. It is provided under the Open Game License. The rest of the code is released to the public domain via the [Unlicense](http://unicense.org/).
+Most of the data that comes with the project has been scraped from the [Pathfinder](http://www.d20pfsrd.com/) website. It is provided under the Open Game License. The fork of the rubaxa:sortable library is under the MIT license (see package). The rest of the code is released to the public domain via the [Unlicense](http://unicense.org/).
 
