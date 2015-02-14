@@ -1,0 +1,3306 @@
+[
+    {
+        "cost": 0.4,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Paper",
+        "name": "Paper (1 sheet)",
+        "value": 0.2,
+        "weight": ""
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Alchemy-Crafting",
+        "name": "Kit, alchemy crafting",
+        "value": 12.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Cauim",
+        "name": "Cauim",
+        "value": 0.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Meat-Street",
+        "name": "Meat, street",
+        "value": 0.005,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Pouch",
+        "name": "Pouch, war spirit",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": "3-30 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Absinthe",
+        "name": "Absinthe",
+        "value": "",
+        "weight": ""
+    },
+    {
+        "cost": 0.03,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Flask",
+        "name": "Flask",
+        "value": 0.015,
+        "weight": "1-1/2 lbs."
+    },
+    {
+        "cost": 400,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Chirurgeon-s",
+        "name": "Kit, chirurgeon's",
+        "value": 200.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Scrivener-s",
+        "name": "Kit, scrivener's",
+        "value": 1.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Tool-Surgeon-s",
+        "name": "Tools, Surgeon's tools",
+        "value": 10.0,
+        "weight": "5 lbs.1"
+    },
+    {
+        "cost": "1,000 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Elephant",
+        "name": "Elephant",
+        "value": "",
+        "weight": "5 tons"
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Yogurt",
+        "name": "Yogurt",
+        "value": 0.05,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Vial",
+        "name": "Vial (for ink or potions)",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": "1 sp to 50 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Hat",
+        "name": "Hat",
+        "value": "",
+        "weight": "1/2 to 2 lbs."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Soap",
+        "name": "Soap",
+        "value": 0.005,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Leeching",
+        "name": "Kit, leeching",
+        "value": 2.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": "25 gp / 37 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Chest",
+        "name": "Chest, Huge / Huge treasure chest",
+        "value": "",
+        "weight": "250 lbs."
+    },
+    {
+        "cost": 0.2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Brush-Dandy",
+        "name": "Brush, dandy",
+        "value": 0.1,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Mask-Battle",
+        "name": "Mask, Battle",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": "1,200 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cloak-Wing",
+        "name": "Cloak, Wing",
+        "value": "",
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-String-or-Twine",
+        "name": "String or twine (50 ft.)",
+        "value": 0.005,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": "varies",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Brooch",
+        "name": "Brooch",
+        "value": "",
+        "weight": ""
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Feed-Bird",
+        "name": "Animal feed, bird (per day)",
+        "value": 0.025,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.04,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Dwarven-Stout",
+        "name": "Ale, Dwarven Stout",
+        "value": 0.02,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": "1,500 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Axe-Beak",
+        "name": "Axe beak (combat trained)",
+        "value": "",
+        "weight": "500 lbs."
+    },
+    {
+        "cost": "5-10 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Mask-Monster",
+        "name": "Mask, Monster",
+        "value": "",
+        "weight": "1 lb."
+    },
+    {
+        "cost": 290,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Seance",
+        "name": "Kit, seance",
+        "value": 145.0,
+        "weight": "12 lbs."
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Pseudodragon",
+        "name": "Pseudodragon",
+        "value": 100.0,
+        "weight": "7 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Darkflare",
+        "name": "Darkflare",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 45,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Horse-or-Pony",
+        "name": "Pony (combat-trained)",
+        "value": 22.5,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Maple-Syrup",
+        "name": "Maple syrup",
+        "value": 0.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cage",
+        "name": "Cage, Tiny creature",
+        "value": 1.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Cheese",
+        "name": "Cheese",
+        "value": 0.05,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Meal",
+        "name": "Meal, banquet",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rumboozle",
+        "name": "Rumboozle",
+        "value": 0.05,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Pyrography",
+        "name": "Kit, pyrography",
+        "value": 0.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Monk-s",
+        "name": "Outfit, Monk's",
+        "value": 2.5,
+        "weight": "2 lbs.1"
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Scarf-Pocketed",
+        "name": "Scarf, pocketed",
+        "value": 4.0,
+        "weight": "1/2 lbs.1"
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tent",
+        "name": "Tent, medium",
+        "value": 7.5,
+        "weight": "30 lbs.1"
+    },
+    {
+        "cost": "10-100 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Caul",
+        "name": "Caul",
+        "value": "",
+        "weight": ""
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Survival",
+        "name": "Kit, survival kit, common",
+        "value": 2.5,
+        "weight": "4 lbs. 4"
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Scorpion-Greensting",
+        "name": "Scorpion, greensting",
+        "value": 7.5,
+        "weight": "9 oz."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Pulque",
+        "name": "Pulque",
+        "value": 0.05,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.4,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#",
+        "name": "Ale, Luglurch",
+        "value": 0.2,
+        "weight": ""
+    },
+    {
+        "cost": 12,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Campsite",
+        "name": "Kit, campsite",
+        "value": 6.0,
+        "weight": "80 lbs."
+    },
+    {
+        "cost": "4,600 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book-Dungeon-Guide",
+        "name": "Book, Dungeon Guide (\"Grave Journal\")",
+        "value": "",
+        "weight": "?"
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Net",
+        "name": "Netting, camouflage",
+        "value": 10.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": "2 cp (aa) 1 cp (pois)",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Grog",
+        "name": "Grog (mug - AA; cup- PoIS)",
+        "value": "",
+        "weight": "1/2 lb. (aa) 1 lb. (pois)"
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Sack",
+        "name": "Sack",
+        "value": 0.05,
+        "weight": "1/2 lb.1"
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Net",
+        "name": "Net, butterfly",
+        "value": 2.5,
+        "weight": "2 lbs.1"
+    },
+    {
+        "cost": "5,000 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Hippogriff",
+        "name": "Hippogriff (combat trained)",
+        "value": "",
+        "weight": "500 lbs."
+    },
+    {
+        "cost": 0.04,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Canary",
+        "name": "Canary",
+        "value": 0.02,
+        "weight": "9 oz."
+    },
+    {
+        "cost": 140,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Infiltration",
+        "name": "Kit, infiltration",
+        "value": 70.0,
+        "weight": "15 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Weasel",
+        "name": "Weasel",
+        "value": 1.0,
+        "weight": "8 oz."
+    },
+    {
+        "cost": 820,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Tools-Thieves-Extenders",
+        "name": "Tools, Thieves', extenders, mithral",
+        "value": 410.0,
+        "weight": "1-1/2 lbs."
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Summoner-s",
+        "name": "Kit, summoner's",
+        "value": 4.0,
+        "weight": "19 lbs.2"
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Chain-Belt",
+        "name": "Chain belt",
+        "value": 7.5,
+        "weight": "1/4 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Tabard",
+        "name": "Tabard",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Chain",
+        "name": "Chain (10 ft.)",
+        "value": 15.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 40,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Alchemist-s",
+        "name": "Kit, alchemist's",
+        "value": 20.0,
+        "weight": "24 lbs.2"
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Fishhook",
+        "name": "Fishhook",
+        "value": 0.05,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Flask",
+        "name": "Flask, hip",
+        "value": 0.5,
+        "weight": "1/2 lb.1"
+    },
+    {
+        "cost": 22,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Magus-s",
+        "name": "Kit, magi",
+        "value": 11.0,
+        "weight": "31 lbs.2"
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Antidote",
+        "name": "Kit, antidote",
+        "value": 50.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 110,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Torch",
+        "name": "Torch, everburning",
+        "value": 55.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Fox",
+        "name": "Fox",
+        "value": 4.0,
+        "weight": "12 lbs."
+    },
+    {
+        "cost": "1 sp-50 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Decorative-Trim",
+        "name": "Decorative trim",
+        "value": "",
+        "weight": ""
+    },
+    {
+        "cost": 250,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Watch-pocket",
+        "name": "Watch, pocket",
+        "value": 125.0,
+        "weight": "1 lb"
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rations-Dwarven-Trail",
+        "name": "Rations, Dwarven trail",
+        "value": 1.0,
+        "weight": "1-1/2 lbs.*"
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cauldron",
+        "name": "Cauldron",
+        "value": 0.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tent",
+        "name": "Tent, large",
+        "value": 15.0,
+        "weight": "40 lbs.1"
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Stationery",
+        "name": "Stationery",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Trap-Bear",
+        "name": "Trap, bear",
+        "value": 1.0,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 9,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Fighter-s",
+        "name": "Kit, fighter's",
+        "value": 4.5,
+        "weight": "29 lbs.2"
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Swarmsuit",
+        "name": "Swarmsuit",
+        "value": 10.0,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Goggles-Smoked",
+        "name": "Goggles, Smoked",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": "?",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Pantograph",
+        "name": "Pantograph",
+        "value": "",
+        "weight": "?"
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Boots-Fire-Resistant",
+        "name": "Boots, fire-resistant",
+        "value": 10.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 14,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Druid-s",
+        "name": "Kit, druid's",
+        "value": 7.0,
+        "weight": "44 lbs.2"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Doctor-s-Mask",
+        "name": "Mask, Doctor's",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 6,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Goat",
+        "name": "Goat",
+        "value": 3.0,
+        "weight": "50 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Backpack",
+        "name": "Backpack, common",
+        "value": 1.0,
+        "weight": "2 lbs.1"
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Feed-Carnivore",
+        "name": "Animal feed, carnivore (per day)",
+        "value": 0.025,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Spellbook",
+        "name": "Spellbook, traveling",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Animal-call",
+        "name": "Kit, Animal call",
+        "value": 0.05,
+        "weight": ""
+    },
+    {
+        "cost": "1 gp/dose",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Perfume",
+        "name": "Perfume/Cologne, common",
+        "value": "",
+        "weight": ""
+    },
+    {
+        "cost": 21,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Witch-s",
+        "name": "Kit, witch's",
+        "value": 10.5,
+        "weight": "21 lbs.2"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Spellbook",
+        "name": "Spellbook, compact",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Case-Map-or-Scroll",
+        "name": "Case, map or scroll",
+        "value": 0.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Donkey-or-Mule-",
+        "name": "Donkey or mule",
+        "value": 4.0,
+        "weight": "600-800 lbs."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Peasant-s",
+        "name": "Outfit, Peasant's",
+        "value": 0.05,
+        "weight": "2 lbs.1"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Backpack",
+        "name": "Backpack, masterwork",
+        "value": 25.0,
+        "weight": "4 lbs.1"
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tent",
+        "name": "Tent, pavilion",
+        "value": 50.0,
+        "weight": "50 lbs.1"
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cage",
+        "name": "Cage, Small or Medium creature",
+        "value": 7.5,
+        "weight": "60 lbs."
+    },
+    {
+        "cost": 310,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Pyramid-Buster-s",
+        "name": "Kit, pyramid buster's",
+        "value": 155.0,
+        "weight": "8 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Case-Scroll",
+        "name": "Case, scroll",
+        "value": 0.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Buoy-Common",
+        "name": "Buoy, common",
+        "value": 0.25,
+        "weight": "16 lbs."
+    },
+    {
+        "cost": 9,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Oracle-s",
+        "name": "Kit, oracle's",
+        "value": 4.5,
+        "weight": "29 lbs.2"
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Horn",
+        "name": "Horn, signal",
+        "value": 0.5,
+        "weight": "2 lbs.1"
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Milk",
+        "name": "Milk, powdered",
+        "value": 0.05,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Training-Kit-Beast",
+        "name": "Training kit (beast)",
+        "value": 7.5,
+        "weight": "26 lbs."
+    },
+    {
+        "cost": 4,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Net",
+        "name": "Net, fishing",
+        "value": 2.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Lantern",
+        "name": "Lantern, darklight",
+        "value": 10.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more",
+        "name": "Common",
+        "value": 1.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Squirrel",
+        "name": "Squirrel, flying",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 130,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Dungeoneering",
+        "name": "Kit, dungeoneering kit, deluxe",
+        "value": 65.0,
+        "weight": "15 lbs."
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Octopus",
+        "name": "Octopus",
+        "value": 12.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Juggler-s",
+        "name": "Kit, juggler's",
+        "value": 7.5,
+        "weight": "10 lbs.1"
+    },
+    {
+        "cost": 300,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Horse-or-Pony",
+        "name": "Horse, heavy (combat-trained)",
+        "value": 150.0,
+        "weight": "1,200 lbs."
+    },
+    {
+        "cost": "100 gp/dose",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Perfume",
+        "name": "Perfume/Cologne, exotic",
+        "value": "",
+        "weight": ""
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rations-Gnome-Trail",
+        "name": "Rations, Gnome trail",
+        "value": 1.0,
+        "weight": "1 lb. *"
+    },
+    {
+        "cost": "1 sp to 50 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Vest",
+        "name": "Vest",
+        "value": "",
+        "weight": "1/2 lb.1"
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Travel-Cake-Mix",
+        "name": "Travel cake mix",
+        "value": 0.05,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 16,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Cleric-s",
+        "name": "Kit, cleric's",
+        "value": 8.0,
+        "weight": "32 lbs.2"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Disguise",
+        "name": "Kit, disguise",
+        "value": 25.0,
+        "weight": "8 lbs.1"
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Lantern",
+        "name": "Lantern, miner's",
+        "value": 7.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Whistle",
+        "name": "Whistle, signal",
+        "value": 0.4,
+        "weight": ""
+    },
+    {
+        "cost": 0.2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Mess",
+        "name": "Kit, mess",
+        "value": 0.1,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Pickpocket-s",
+        "name": "Outfit, Pickpocket's",
+        "value": 2.5,
+        "weight": "3 lbs.1"
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Candle",
+        "name": "Candle",
+        "value": 0.005,
+        "weight": ""
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Tool-Artisan-s",
+        "name": "Tools, Artisan's, common",
+        "value": 2.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 17,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Training-Kit-Bird",
+        "name": "Training kit (bird)",
+        "value": 8.5,
+        "weight": "8 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Animal-Glue",
+        "name": "Animal glue",
+        "value": 0.25,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 265,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Gravedigger-s",
+        "name": "Kit, gravedigger's",
+        "value": 132.5,
+        "weight": "22 lbs."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Centipede-House",
+        "name": "Centipede, house",
+        "value": 0.005,
+        "weight": "3 oz."
+    },
+    {
+        "cost": 500,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Vampire-Slayer-s",
+        "name": "Kit, vampire slayer's",
+        "value": 250.0,
+        "weight": "8 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Soldier-s-Uniform",
+        "name": "Soldier's uniform",
+        "value": 0.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Whip-Enraging",
+        "name": "Whip, enraging",
+        "value": 5.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 450,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Bat-Dire-Riding",
+        "name": "Bat, dire, riding (combat trained)",
+        "value": 225.0,
+        "weight": "450 lbs."
+    },
+    {
+        "cost": 150,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Doctor-s",
+        "name": "Outfit, Doctor's",
+        "value": 75.0,
+        "weight": "6 lbs."
+    },
+    {
+        "cost": 0.30000000000000004,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Spellbook",
+        "name": "Book Lariat",
+        "value": 0.15000000000000002,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Capybara",
+        "name": "Capybara",
+        "value": 0.5,
+        "weight": "50 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Bufo",
+        "name": "Bufo",
+        "value": 0.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 40,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Lock",
+        "name": "Lock, average",
+        "value": 20.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Sorcerer-s",
+        "name": "Kit, sorcerer's",
+        "value": 4.0,
+        "weight": "19 lbs.2"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, footprints",
+        "value": 25.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Neck-Guard",
+        "name": "Neck Guard",
+        "value": 5.0,
+        "weight": "1/4 lb."
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Hot-Weather",
+        "name": "Outfit, Hot Weather",
+        "value": 4.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Thrush",
+        "name": "Thrush",
+        "value": 0.05,
+        "weight": "7 oz."
+    },
+    {
+        "cost": 0.03,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Jug",
+        "name": "Jug",
+        "value": 0.015,
+        "weight": "9 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Box-Scroll",
+        "name": "Box, scroll",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.02,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Toad",
+        "name": "Toad",
+        "value": 0.01,
+        "weight": "7 oz."
+    },
+    {
+        "cost": 670,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Ghost-Hunter-s",
+        "name": "Kit, ghost hunter's",
+        "value": 335.0,
+        "weight": "22 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Fishing",
+        "name": "Kit, fishing",
+        "value": 0.25,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Explorer-s",
+        "name": "Outfit, Explorer's",
+        "value": 5.0,
+        "weight": "8 lbs.1"
+    },
+    {
+        "cost": 65,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Manacles",
+        "name": "Manacles, false",
+        "value": 32.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Compass",
+        "name": "Compass",
+        "value": 5.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.08,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Applejack",
+        "name": "Applejack",
+        "value": 0.04,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Bag-Bear",
+        "name": "Bag, Bear",
+        "value": 1.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 65,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Chain",
+        "name": "Chains, breakaway",
+        "value": 32.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Trailscent",
+        "name": "Kit, trailscent",
+        "value": 5.0,
+        "weight": "5 lb."
+    },
+    {
+        "cost": 3,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Turtle",
+        "name": "Turtle",
+        "value": 1.5,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Meal",
+        "name": "Meal, poor",
+        "value": 0.05,
+        "weight": ""
+    },
+    {
+        "cost": 7,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Lantern",
+        "name": "Lantern, hooded",
+        "value": 3.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Gear-Maintenance",
+        "name": "Kit, gear maintenance",
+        "value": 2.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Wine",
+        "name": "Wine fine",
+        "value": 5.0,
+        "weight": "1-1/2 lbs."
+    },
+    {
+        "cost": "1 sp to 50 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Mask",
+        "name": "Mask",
+        "value": "",
+        "weight": "1 lb.1"
+    },
+    {
+        "cost": "8,000 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Griffon",
+        "name": "Griffon (combat trained)",
+        "value": "",
+        "weight": "500 lbs."
+    },
+    {
+        "cost": 75,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Gambler-s",
+        "name": "Kit, gambler's kit, common",
+        "value": 37.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Coffin",
+        "name": "Coffin, common",
+        "value": 5.0,
+        "weight": "30 lbs.1"
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Fire",
+        "name": "Ink, fire",
+        "value": 0.5,
+        "weight": "??"
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Bottle",
+        "name": "Bottle",
+        "value": 1.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cage",
+        "name": "Cage, Diminutive or Fine creature",
+        "value": 5.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.4,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Basket",
+        "name": "Basket",
+        "value": 0.2,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 9,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Barbarian-s",
+        "name": "Kit, barbarian's",
+        "value": 4.5,
+        "weight": "26 lbs.2"
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Scholar-s",
+        "name": "Outfit, Scholar's",
+        "value": 2.5,
+        "weight": "6 lbs.1"
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Invisible",
+        "name": "Ink, invisible (good)",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Scarf-Reinforced",
+        "name": "Scarf, reinforced",
+        "value": 5.0,
+        "weight": "1 lb.1"
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Training-Kit-Sleeve",
+        "name": "Training sleeve",
+        "value": 50.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 36,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Riding",
+        "name": "Kit, riding kit, exotic mount",
+        "value": 18.0,
+        "weight": "59 lbs."
+    },
+    {
+        "cost": 3,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Horn",
+        "name": "Horn, powder",
+        "value": 1.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Pouch",
+        "name": "Pouch, belt",
+        "value": 0.5,
+        "weight": "1/2 lb.1"
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Cold-Weather",
+        "name": "Outfit, Cold-Weather",
+        "value": 4.0,
+        "weight": "7 lbs.1"
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Jewelry-false",
+        "name": "Jewelry, false",
+        "value": 10.0,
+        "weight": ""
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink",
+        "name": "Ink",
+        "value": 4.0,
+        "weight": ""
+    },
+    {
+        "cost": "10-100\u00ad gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Hennin",
+        "name": "Hennin",
+        "value": "",
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Owlbear-Blinders",
+        "name": "Owlbear blinders",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, adventurer's chronicle",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Feed-Animal",
+        "name": "Animal feed (per day)",
+        "value": 0.025,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Survival",
+        "name": "Kit, survival kit, masterwork",
+        "value": 25.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Saddle",
+        "name": "Saddle, exotic riding",
+        "value": 15.0,
+        "weight": "30 lbs."
+    },
+    {
+        "cost": 0,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Monkey",
+        "name": "Monkey",
+        "value": 0.0,
+        "weight": ""
+    },
+    {
+        "cost": 24,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Pack-Animal",
+        "name": "Pack Animal",
+        "value": 12.0,
+        "weight": "varies but 1-2 tons is common"
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Candle",
+        "name": "Candle, helmet",
+        "value": 1.0,
+        "weight": "4 lbs"
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cloak-Patchwork",
+        "name": "Cloak, Patchwork",
+        "value": 2.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Spider",
+        "name": "Spider",
+        "value": 12.5,
+        "weight": "8 oz."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Hammock",
+        "name": "Hammock",
+        "value": 0.05,
+        "weight": "3 lbs.1"
+    },
+    {
+        "cost": 1.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Shaving",
+        "name": "Kit, shaving",
+        "value": 0.75,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Chalkboard",
+        "name": "Chalkboard",
+        "value": 0.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 4,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Saddlebags",
+        "name": "Saddlebags",
+        "value": 2.0,
+        "weight": "8 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Stink",
+        "name": "Ink, stink",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 300,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Gambler-s",
+        "name": "Kit, gambler's kit, cheating",
+        "value": 150.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Moonrod",
+        "name": "Moonrod",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, traveler's dictionary",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Bandolier",
+        "name": "Bandolier",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Rat-Blue",
+        "name": "Rat, Blue",
+        "value": 0.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Saddle",
+        "name": "Saddle, riding",
+        "value": 5.0,
+        "weight": "25 lbs."
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Perfume-Cologne",
+        "name": "Perfume/Cologne, exotic (1 dose)",
+        "value": 50.0,
+        "weight": ""
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Tear-Away-Clothing",
+        "name": "Tear-Away Clothing",
+        "value": 2.5,
+        "weight": "varies1"
+    },
+    {
+        "cost": 40,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Falcon",
+        "name": "Falcon",
+        "value": 20.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Saddle",
+        "name": "Saddle, military",
+        "value": 10.0,
+        "weight": "30 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Signet-ring",
+        "name": "Ring, signet",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Bathtub-Collapsible",
+        "name": "Bathtub, collapsible",
+        "value": 7.5,
+        "weight": "20 lbs.1"
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Cot",
+        "name": "Cot",
+        "value": 0.5,
+        "weight": "30 lbs.1"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Map",
+        "name": "Map",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Waterskin",
+        "name": "Waterskin",
+        "value": 0.5,
+        "weight": "4 lbs.1"
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Bucket",
+        "name": "Bucket",
+        "value": 0.25,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Wine",
+        "name": "Wine common",
+        "value": 0.1,
+        "weight": "6 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, blue",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Lizard",
+        "name": "Lizard",
+        "value": 0.025,
+        "weight": "2 oz."
+    },
+    {
+        "cost": 75,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Horse-or-Pony",
+        "name": "Horse, light",
+        "value": 37.5,
+        "weight": "600 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Whiskey-Dragon-Punch",
+        "name": "Whiskey, Dragon Punch",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": "1,251 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cauldron",
+        "name": "Cauldron, mithral",
+        "value": "",
+        "weight": "2-1/2 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Owl",
+        "name": "Owl",
+        "value": 5.0,
+        "weight": "1-3 lbs."
+    },
+    {
+        "cost": 12,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Furs",
+        "name": "Furs",
+        "value": 6.0,
+        "weight": "5 lbs.1"
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Poncho",
+        "name": "Poncho",
+        "value": 0.25,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 170,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Zombie-Slayer-s",
+        "name": "Kit, zombie slayer's",
+        "value": 85.0,
+        "weight": "31 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Veterinarian-s",
+        "name": "Kit, veterinarian's",
+        "value": 5.0,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 150,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Camel",
+        "name": "Camel",
+        "value": 75.0,
+        "weight": "1,000 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, journal",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rations",
+        "name": "Rations, trail",
+        "value": 0.25,
+        "weight": "1 lb.*"
+    },
+    {
+        "cost": 0.04,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Ale",
+        "name": "Ale",
+        "value": 0.02,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 150,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Lock",
+        "name": "Lock, superior",
+        "value": 75.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cleats",
+        "name": "Cleats",
+        "value": 2.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Invisible",
+        "name": "Ink, invisible (simple)",
+        "value": 1.0,
+        "weight": ""
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Whistle",
+        "name": "Whistle, beast",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Wax-Sealing",
+        "name": "Sealing wax",
+        "value": 0.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cattle",
+        "name": "Cattle",
+        "value": 25.0,
+        "weight": "1,500 lbs."
+    },
+    {
+        "cost": 0.9,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Whistle",
+        "name": "Whistle, silent",
+        "value": 0.45,
+        "weight": ""
+    },
+    {
+        "cost": "1,500 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Axe-Beak",
+        "name": "Axe beak",
+        "value": "",
+        "weight": "500 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Sheep",
+        "name": "Sheep",
+        "value": 10.0,
+        "weight": "150 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Falconry-Gauntlet",
+        "name": "Falconry gauntlet",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Mead-Linnorm",
+        "name": "Mead, linnorm",
+        "value": 0.025,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Baijiu",
+        "name": "Baijiu",
+        "value": 5.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 80,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Climber-s",
+        "name": "Kit, climber's",
+        "value": 40.0,
+        "weight": "5 lbs.1"
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Tools-Thieves-",
+        "name": "Tools, Thieves', masterwork",
+        "value": 50.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 75,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Noble-s",
+        "name": "Outfit, Noble's",
+        "value": 37.5,
+        "weight": "10 lbs.1"
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Vest-Barbed",
+        "name": "Vest, barbed",
+        "value": 5.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Snake-Constrictor",
+        "name": "Snake, constrictor",
+        "value": 2.5,
+        "weight": "60 lbs."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Spellbook",
+        "name": "Spellbook",
+        "value": 7.5,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Barrel",
+        "name": "Barrel",
+        "value": 1.0,
+        "weight": "30 lbs."
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Courtier-s",
+        "name": "Outfit, Courtier's",
+        "value": 15.0,
+        "weight": "6 lbs.1"
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Raven",
+        "name": "Raven",
+        "value": 1.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Meal",
+        "name": "Meal, good",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 300,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, arcane family workbook",
+        "value": 150.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 80,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Lock",
+        "name": "Lock, good",
+        "value": 40.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Fetters",
+        "name": "Fetters, masterwork",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Blanket",
+        "name": "Blanket",
+        "value": 0.25,
+        "weight": "3 lbs.1"
+    },
+    {
+        "cost": 70,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Tools-Thieves-Extenders",
+        "name": "Tools, Thieves', extenders, common",
+        "value": 35.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rations-Orc-Trail",
+        "name": "Rations, Orc trail",
+        "value": 0.5,
+        "weight": "1 lb.*"
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Chocolate",
+        "name": "Chocolate",
+        "value": 2.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 9,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Ranger-s",
+        "name": "Kit, ranger's",
+        "value": 4.5,
+        "weight": "28 lbs.2"
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Artisan-s",
+        "name": "Outfit, Artisan's",
+        "value": 0.5,
+        "weight": "4 lbs.1"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, of letters",
+        "value": 25.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Charcoal",
+        "name": "Charcoal (1 stick)",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 0.30000000000000004,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Meat",
+        "name": "Meat",
+        "value": 0.15000000000000002,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 3,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Entertainer-s",
+        "name": "Outfit, Entertainer's",
+        "value": 1.5,
+        "weight": "4 lbs.1"
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Ring-poison-pill",
+        "name": "Ring, poison pill",
+        "value": 10.0,
+        "weight": ""
+    },
+    {
+        "cost": "special",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Stink-Arcane-",
+        "name": "Ink, stink (arcane)",
+        "value": "",
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.02,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Mug",
+        "name": "Mug/Tankard, clay",
+        "value": 0.01,
+        "weight": "1 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Bat",
+        "name": "Bat",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Skates-Ice",
+        "name": "Skates, ice",
+        "value": 0.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Chair",
+        "name": "Chair, folding",
+        "value": 1.0,
+        "weight": "10 lbs.1"
+    },
+    {
+        "cost": 0.8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Pot",
+        "name": "Pot, iron",
+        "value": 0.4,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Net",
+        "name": "Net, bell",
+        "value": 1.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Barding-Thorny-Breastplate",
+        "name": "Barding, thorny breastplate",
+        "value": 0.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.03,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cat",
+        "name": "Cat",
+        "value": 0.015,
+        "weight": "8 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rations-Elven-Trail",
+        "name": "Rations, Elven trail",
+        "value": 1.0,
+        "weight": "1 lb.*"
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Boots-Softpaw",
+        "name": "Boots, softpaw",
+        "value": 12.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 121,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Diver-s",
+        "name": "Kit, diver's",
+        "value": 60.5,
+        "weight": "38 lbs.2"
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Fortune-Cookie",
+        "name": "Fortune cookie",
+        "value": 0.005,
+        "weight": ""
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Potion-Sponge",
+        "name": "Potion Sponge",
+        "value": 1.0,
+        "weight": ""
+    },
+    {
+        "cost": 0,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Candle-Insectbane",
+        "name": "Candle, insectbane",
+        "value": 0.0,
+        "weight": ""
+    },
+    {
+        "cost": 300,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Thieves-Ring",
+        "name": "Thieves' Ring",
+        "value": 150.0,
+        "weight": ""
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Dog",
+        "name": "Dog, guard",
+        "value": 12.5,
+        "weight": "90 lbs."
+    },
+    {
+        "cost": 60,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Saddle",
+        "name": "Saddle, exotic military",
+        "value": 30.0,
+        "weight": "40 lbs."
+    },
+    {
+        "cost": 12,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Lantern",
+        "name": "Lantern, bullseye",
+        "value": 6.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tent",
+        "name": "Tent, hanging",
+        "value": 10.0,
+        "weight": "15 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Eyeglasses",
+        "name": "Eyeglasses",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Familiar-Satchel",
+        "name": "Satchel, familiar",
+        "value": 12.5,
+        "weight": "6 lbs."
+    },
+    {
+        "cost": 750,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Incubation-Stove",
+        "name": "Incubation stove",
+        "value": 375.0,
+        "weight": "250 lbs."
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Poison-Caps",
+        "name": "Poison caps",
+        "value": 12.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Skis",
+        "name": "Skis",
+        "value": 2.5,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Candle",
+        "name": "Candle lamp",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Gunsmith-s",
+        "name": "Kit, gunsmith's",
+        "value": 7.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Pig",
+        "name": "Pig",
+        "value": 5.0,
+        "weight": "100-300 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Honey",
+        "name": "Honey",
+        "value": 0.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Rat",
+        "name": "Rat",
+        "value": 0.005,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Quieting-Needles",
+        "name": "Quieting needles",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Stabling",
+        "name": "Stabling for animal (per day)",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Barding-Stitches",
+        "name": "Barding stitches",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rations-Halfling-Trail",
+        "name": "Rations, Halfling trail",
+        "value": 1.0,
+        "weight": "1/2 lb.*"
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Milk",
+        "name": "Milk",
+        "value": 0.025,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Badger",
+        "name": "Badger",
+        "value": 7.5,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cage",
+        "name": "Cage, Large creature",
+        "value": 15.0,
+        "weight": "240 lbs."
+    },
+    {
+        "cost": 174,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Spelunking",
+        "name": "Kit, spelunking",
+        "value": 87.0,
+        "weight": "32 lbs."
+    },
+    {
+        "cost": "varies",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Jewelry",
+        "name": "Jewelry",
+        "value": "",
+        "weight": "varies"
+    },
+    {
+        "cost": 485,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Dragonslayer-s",
+        "name": "Kit, dragonslayer's",
+        "value": 242.5,
+        "weight": "64 lbs."
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rope",
+        "name": "Rope, spider's silk (50 ft.)",
+        "value": 50.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Inkpen",
+        "name": "Inkpen",
+        "value": 0.05,
+        "weight": ""
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Dilettante-s",
+        "name": "Outfit, Dilettante's",
+        "value": 10.0,
+        "weight": "8 lbs."
+    },
+    {
+        "cost": 402,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Undead-Slayer-s",
+        "name": "Kit, undead slayer's",
+        "value": 201.0,
+        "weight": "7 lbs."
+    },
+    {
+        "cost": 250,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Printing-Press",
+        "name": "Printing press (1 page)",
+        "value": 125.0,
+        "weight": "150 lbs."
+    },
+    {
+        "cost": 40,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Chronicler-s",
+        "name": "Kit, chronicler's",
+        "value": 20.0,
+        "weight": "4-1/2 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Perfume-Cologne",
+        "name": "Perfume/Cologne, common (1 dose)",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 150,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, cypher",
+        "value": 75.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Paper",
+        "name": "Paper, rice (1 sheet)",
+        "value": 0.025,
+        "weight": ""
+    },
+    {
+        "cost": 16,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Riding",
+        "name": "Kit, riding kit, common",
+        "value": 8.0,
+        "weight": "54 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Toad-Vision",
+        "name": "Toad, Vision",
+        "value": 5.0,
+        "weight": "5 oz."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Brush-Mastodon",
+        "name": "Brush, mastodon",
+        "value": 10.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cat",
+        "name": "Cat, hunting",
+        "value": 50.0,
+        "weight": "100 lbs."
+    },
+    {
+        "cost": 75,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, dream prophecies",
+        "value": 37.5,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 21,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Wizard-s",
+        "name": "Kit, wizard's",
+        "value": 10.5,
+        "weight": "21 lbs.2"
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Godsbrew",
+        "name": "Godsbrew",
+        "value": 0.025,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 3,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Coffee-Pot",
+        "name": "Coffee pot",
+        "value": 1.5,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 41,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Bard-s",
+        "name": "Kit, bard's",
+        "value": 20.5,
+        "weight": "33-1/2 lbs.2"
+    },
+    {
+        "cost": 150,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Dog",
+        "name": "Dog, riding",
+        "value": 75.0,
+        "weight": "120 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Perfume-Cologne",
+        "name": "Perfume/Cologne, rare (1 dose)",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Snake-Viper",
+        "name": "Snake, viper",
+        "value": 2.5,
+        "weight": "10 oz."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Training-Harness",
+        "name": "Training harness (human)",
+        "value": 5.0,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 150,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Camel",
+        "name": "Camel, riding",
+        "value": 75.0,
+        "weight": "1,500 lbs"
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Rabbit",
+        "name": "Rabbit",
+        "value": 1.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-morehttp://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Sash-Adventurer-s",
+        "name": "Sash, Adventurer's",
+        "value": 10.0,
+        "weight": "3 lbs. (container)"
+    },
+    {
+        "cost": 8,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Monk-s",
+        "name": "Kit, monk's",
+        "value": 4.0,
+        "weight": "22 lbs.2"
+    },
+    {
+        "cost": "10 gp / 15 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Chest",
+        "name": "Chest, Large / Large treasure chest",
+        "value": "",
+        "weight": "100 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Grooming",
+        "name": "Kit, grooming",
+        "value": 0.5,
+        "weight": "2 lbs.1"
+    },
+    {
+        "cost": 12,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Pathfinder-s",
+        "name": "Kit, pathfinder's",
+        "value": 6.0,
+        "weight": "22 lbs."
+    },
+    {
+        "cost": 300,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Gecko-Riding",
+        "name": "Gecko, riding",
+        "value": 150.0,
+        "weight": "1,200 lbs."
+    },
+    {
+        "cost": 474,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Trickster-s",
+        "name": "Kit, trickster's",
+        "value": 237.0,
+        "weight": "23 lbs."
+    },
+    {
+        "cost": 0,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Whiskey-Oldlaw",
+        "name": "Whiskey, Oldlaw",
+        "value": 0.0,
+        "weight": ""
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Manacle-Barbs",
+        "name": "Manacle barbs",
+        "value": 7.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Rat-Dire",
+        "name": "Rat, dire",
+        "value": 2.5,
+        "weight": "50 lbs."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Air-Bladder",
+        "name": "Air bladder",
+        "value": 0.05,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 85,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Key",
+        "name": "Key, skeleton",
+        "value": 42.5,
+        "weight": ""
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Manacles",
+        "name": "Manacles, common",
+        "value": 7.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Haggis",
+        "name": "Haggis",
+        "value": 0.05,
+        "weight": "1-1/2 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Lock",
+        "name": "Lock, simple",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Raccoon",
+        "name": "Raccoon",
+        "value": 2.5,
+        "weight": "7 lbs."
+    },
+    {
+        "cost": 23,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Cavalier-s",
+        "name": "Kit, cavalier's",
+        "value": 11.5,
+        "weight": "112 lbs.2"
+    },
+    {
+        "cost": "1 sp to 5 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Scarf",
+        "name": "Scarf",
+        "value": "",
+        "weight": "1/2 lb.1"
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Mirror-small-steel-",
+        "name": "Mirror, small steel",
+        "value": 5.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Horse-or-Pony",
+        "name": "Pony",
+        "value": 15.0,
+        "weight": ""
+    },
+    {
+        "cost": 80,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Aquarian-Ball",
+        "name": "Aquarium ball",
+        "value": 40.0,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 0.03,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Coffee-Exotic",
+        "name": "Coffee, exotic",
+        "value": 0.015,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": "2 gp / 3 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Chest",
+        "name": "Chest, Small / Small treasure chest",
+        "value": "",
+        "weight": "25 lbs."
+    },
+    {
+        "cost": "3,500 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Griffon",
+        "name": "Griffon egg",
+        "value": "",
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 11,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Paladin-s",
+        "name": "Kit, paladin's",
+        "value": 5.5,
+        "weight": "30 lbs.2"
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Key",
+        "name": "Key blank, wax",
+        "value": 7.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Tools-Thieves-",
+        "name": "Tools, Thieves', common",
+        "value": 15.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rope",
+        "name": "Rope, silk (50 ft.)",
+        "value": 5.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Healer-s",
+        "name": "Kit, healer's",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rope",
+        "name": "Rope, hemp (50 ft.)",
+        "value": 0.5,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Ghost",
+        "name": "Ink, ghost",
+        "value": 12.5,
+        "weight": "/20"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Bat-Shadow",
+        "name": "Bat, shadow",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Dog",
+        "name": "Dog, lap",
+        "value": 7.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Rations-Wandermeal",
+        "name": "Rations, Wandermeal (per serving)",
+        "value": 0.005,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Wine",
+        "name": "Wine, sealord",
+        "value": 7.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cup",
+        "name": "Cup",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 3.0,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Troll-Slayer-s",
+        "name": "Kit, troll slayer's",
+        "value": 1.5,
+        "weight": "17 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Training-Whip",
+        "name": "Training whip (human)",
+        "value": 2.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": "1,000 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Manacles",
+        "name": "Manacles, mithral",
+        "value": "",
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.05,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tepache",
+        "name": "Tepache",
+        "value": 0.025,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Lamp",
+        "name": "Lamp",
+        "value": 0.05,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.30000000000000004,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Meal",
+        "name": "Meal, common",
+        "value": 0.15000000000000002,
+        "weight": ""
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Chalk",
+        "name": "Chalk (1 piece)",
+        "value": 0.005,
+        "weight": ""
+    },
+    {
+        "cost": 26,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Gunslinger-s",
+        "name": "Kit, gunslinger's",
+        "value": 13.0,
+        "weight": "31 lbs."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Firewood",
+        "name": "Firewood (per day)",
+        "value": 0.005,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, of puzzles",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Lantern",
+        "name": "Lantern, waterproof",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tonic-Medicinal",
+        "name": "Tonic, medicinal",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Sunrod",
+        "name": "Sunrod",
+        "value": 1.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Whet-Bone",
+        "name": "Whet bone",
+        "value": 0.05,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 52,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Chest",
+        "name": "Chest, false bottomed",
+        "value": 26.0,
+        "weight": "25 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Pouch",
+        "name": "Pouch, spell components",
+        "value": 2.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Saddle",
+        "name": "Saddle, pack",
+        "value": 2.5,
+        "weight": "15 lbs."
+    },
+    {
+        "cost": 0.02,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Pitcher",
+        "name": "Pitcher",
+        "value": 0.01,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Stirge",
+        "name": "Stirge",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 60,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Cage",
+        "name": "Cage, Huge creature",
+        "value": 30.0,
+        "weight": "960 lbs."
+    },
+    {
+        "cost": 0.2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Kilt",
+        "name": "Kilt",
+        "value": 0.1,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Bit-and-Bridle",
+        "name": "Bit and bridle",
+        "value": 1.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Buoy-Superior",
+        "name": "Buoy, superior",
+        "value": 5.0,
+        "weight": "30 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Midwife-s",
+        "name": "Kit, midwife's",
+        "value": 5.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Kumis",
+        "name": "Kumis",
+        "value": 0.25,
+        "weight": "1-1/2 lbs."
+    },
+    {
+        "cost": 563,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Tracker-s",
+        "name": "Kit, tracker's",
+        "value": 281.5,
+        "weight": "33 lbs."
+    },
+    {
+        "cost": 0.2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Parchment",
+        "name": "Parchment (1 sheet)",
+        "value": 0.1,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tent",
+        "name": "Tent, small",
+        "value": 5.0,
+        "weight": "20 lbs.1"
+    },
+    {
+        "cost": 0.02,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Bread",
+        "name": "Bread",
+        "value": 0.01,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Star-Charts",
+        "name": "Star Charts",
+        "value": 100.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": "5 gp to 500 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Wig",
+        "name": "Wig",
+        "value": "",
+        "weight": "1/2 to 4 lbs.1"
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Dungeoneering",
+        "name": "Kit, dungeoneering kit, common",
+        "value": 7.5,
+        "weight": "25 lbs."
+    },
+    {
+        "cost": "2,000 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Mastodon",
+        "name": "Mastodon",
+        "value": "",
+        "weight": "8 tons"
+    },
+    {
+        "cost": 30,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Inquisitor-s",
+        "name": "Kit, inquisitor's",
+        "value": 15.0,
+        "weight": "34 lbs.2"
+    },
+    {
+        "cost": 0.02,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Kahve",
+        "name": "Kahve",
+        "value": 0.01,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 353,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Breaker-s",
+        "name": "Kit, breaker's",
+        "value": 176.5,
+        "weight": "40 lbs.2"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Manacles",
+        "name": "Manacles, masterwork",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Snowshoes",
+        "name": "Snowshoes",
+        "value": 2.5,
+        "weight": "4 lbs.1"
+    },
+    {
+        "cost": 170,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Light",
+        "name": "Kit, light",
+        "value": 85.0,
+        "weight": "6 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Scent-Cloak",
+        "name": "Scent cloak",
+        "value": 10.0,
+        "weight": "2 lbs./20"
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, obsession log",
+        "value": 12.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": "1 cp - 20gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Tattoo",
+        "name": "Tattoo",
+        "value": "",
+        "weight": ""
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Coffee",
+        "name": "Coffee, common",
+        "value": 0.005,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Hedgehog",
+        "name": "Hedgehog",
+        "value": 2.5,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 18,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Hawk",
+        "name": "Hawk",
+        "value": 9.0,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Squirrel",
+        "name": "Squirrel, common",
+        "value": 0.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Bell",
+        "name": "Bell",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 3,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Cooking",
+        "name": "Kit, cooking",
+        "value": 1.5,
+        "weight": "16 lbs."
+    },
+    {
+        "cost": 0.02,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tea",
+        "name": "Tea",
+        "value": 0.01,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Torch",
+        "name": "Torch",
+        "value": 0.005,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.01,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Candle",
+        "name": "Candlestick",
+        "value": 0.005,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Skunk",
+        "name": "Skunk",
+        "value": 5.0,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Coffin",
+        "name": "Coffin, ornate",
+        "value": 50.0,
+        "weight": "50 lbs.1"
+    },
+    {
+        "cost": 40,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Light-Fire",
+        "name": "Ink, light fire (vial)",
+        "value": 20.0,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, portrait",
+        "value": 5.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Duck",
+        "name": "Duck",
+        "value": 1.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Rogue-s",
+        "name": "Kit, rogue's",
+        "value": 25.0,
+        "weight": "37 lbs.2"
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Canteen",
+        "name": "Canteen",
+        "value": 1.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Otter",
+        "name": "Otter",
+        "value": 10.0,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 12,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Gecko",
+        "name": "Gecko",
+        "value": 6.0,
+        "weight": "4 oz."
+    },
+    {
+        "cost": 0.04,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Tea-Ceremonial",
+        "name": "Tea, ceremonial",
+        "value": 0.02,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Ice-Cream",
+        "name": "Ice cream",
+        "value": 0.05,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Invisible",
+        "name": "Ink, invisible (average)",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Horse-or-Pony",
+        "name": "Horse, heavy",
+        "value": 100.0,
+        "weight": "1,000 lbs."
+    },
+    {
+        "cost": 25,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Symptom",
+        "name": "Kit, symptom",
+        "value": 12.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Goggles-Gloom-Sight",
+        "name": "Goggles, Gloom Sight",
+        "value": 100.0,
+        "weight": ""
+    },
+    {
+        "cost": 120,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Skeleton-Slayer-s",
+        "name": "Kit, skeleton slayer's",
+        "value": 60.0,
+        "weight": "32 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, heritage",
+        "value": 25.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": "5 gp / 7 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Chest",
+        "name": "Chest, Medium / Medium treasure chest",
+        "value": "",
+        "weight": "50 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Caviar",
+        "name": "Caviar",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more",
+        "name": "Masterwork",
+        "value": 25.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Crab",
+        "name": "Crab",
+        "value": 10.0,
+        "weight": "5-7 lbs."
+    },
+    {
+        "cost": 300,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Lamp-Celestial",
+        "name": "Lamp, celestial",
+        "value": 150.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Bag",
+        "name": "Bag, waterproof",
+        "value": 0.25,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Forger-s",
+        "name": "Kit, forger's",
+        "value": 100.0,
+        "weight": "6 lbs."
+    },
+    {
+        "cost": 300,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Bat-Dire-Riding",
+        "name": "Bat, dire, riding",
+        "value": 150.0,
+        "weight": "400 lbs."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Mapmaker-s",
+        "name": "Kit, mapmaker's",
+        "value": 5.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": "3,500 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book-Dungeon-Guide",
+        "name": "Book, Dungeon Guide (\"Observations of the Drowned City\")",
+        "value": "",
+        "weight": "?"
+    },
+    {
+        "cost": 100,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cape-Billow",
+        "name": "Cape, Billow",
+        "value": 50.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 263,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Trapper-s",
+        "name": "Kit, trapper's",
+        "value": 131.5,
+        "weight": "90 lbs.2"
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Glowing",
+        "name": "Ink, glowing (vial)",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Entertainer-s",
+        "name": "Kit, entertainer's",
+        "value": 0.25,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": 5,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cleric-s-Vestments",
+        "name": "Vestments, Cleric's",
+        "value": 2.5,
+        "weight": "6 lbs.1"
+    },
+    {
+        "cost": 110,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Horse-or-Pony",
+        "name": "Horse, light (combat-trained)",
+        "value": 55.0,
+        "weight": "900 lbs."
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Royal",
+        "name": "Outfit, Royal",
+        "value": 100.0,
+        "weight": "15 lbs.1"
+    },
+    {
+        "cost": 22,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Barding",
+        "name": "Barding, common (Medium creature)",
+        "value": 11.0,
+        "weight": "x12"
+    },
+    {
+        "cost": 55,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Tool-Artisan-s",
+        "name": "Tools, Artisan's, masterwork",
+        "value": 27.5,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cup",
+        "name": "Cup, false bottomed",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Bedroll",
+        "name": "Bedroll",
+        "value": 0.05,
+        "weight": "5 lbs.1"
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Hippogriff",
+        "name": "Hippogriff egg",
+        "value": 100.0,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Parrot",
+        "name": "Parrot",
+        "value": 25.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 200,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Bloodvine-Rope",
+        "name": "Rope, bloodvine",
+        "value": 100.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Saddle",
+        "name": "Saddle, exotic pack",
+        "value": 7.5,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book",
+        "name": "Book, of War Prayers",
+        "value": 25.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Owl-Ruffled",
+        "name": "Owl, ruffled",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 751,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Knight-s",
+        "name": "Kit, knight's",
+        "value": 375.5,
+        "weight": "17 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Key-Copy",
+        "name": "Key, copy",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Vial",
+        "name": "Vial, iron",
+        "value": 0.05,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 15,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Fetters",
+        "name": "Fetters",
+        "value": 7.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Outfit-Traveler-s",
+        "name": "Outfit, Traveler's",
+        "value": 0.5,
+        "weight": "5 lbs.1"
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Mead",
+        "name": "Mead",
+        "value": 1.0,
+        "weight": "8 lbs."
+    },
+    {
+        "cost": 75,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Ink-Invisible",
+        "name": "Ink, invisible (superior)",
+        "value": 37.5,
+        "weight": ""
+    },
+    {
+        "cost": 400,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Gecko-Riding",
+        "name": "Gecko, riding (combat trained)",
+        "value": 200.0,
+        "weight": "1,500 lbs."
+    },
+    {
+        "cost": "6,700 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies#TOC-Book-Dungeon-Guide",
+        "name": "Book, Dungeon Guide (\"A Thread Of Silver\")",
+        "value": "",
+        "weight": "?"
+    },
+    {
+        "cost": 50,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Thurible",
+        "name": "Thurible",
+        "value": 25.0,
+        "weight": "3 lbs."
+    },
+    {
+        "cost": "1,000 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Axe-Beak",
+        "name": "Axe beak egg",
+        "value": "",
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 500,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits#TOC-Kit-Undeath-Aid",
+        "name": "Kit, undeath aid",
+        "value": 250.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 10,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Diving-Suit",
+        "name": "Suit, diving",
+        "value": 5.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 20,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear#TOC-Heatstone",
+        "name": "Heatstone",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 2,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Harness",
+        "name": "Harness",
+        "value": 1.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 42,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Barding",
+        "name": "Barding, common (Large creature)",
+        "value": 21.0,
+        "weight": "x22"
+    },
+    {
+        "cost": 0.1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Eye-Patch",
+        "name": "Eye patch",
+        "value": 0.05,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear#TOC-Chicken",
+        "name": "Chicken",
+        "value": 0.5,
+        "weight": "6 lbs."
+    },
+    {
+        "cost": "2 sp-100 gp",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more#TOC-Cloak-Reversible",
+        "name": "Cloak, Reversible",
+        "value": "",
+        "weight": "1 lb."
+    }
+]
