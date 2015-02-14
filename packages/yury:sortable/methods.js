@@ -10,7 +10,7 @@ Meteor.methods({
 	 */
 	'rubaxa:sortable/collection-update': function (collectionName, ids, orderField, incDec) {
 		check(collectionName, String);
-		check(ids, [Mongo.ObjectID]);
+        // check(ids, [Mongo.ObjectID]);
 		check(orderField, String);
 		check(incDec, Number);
 		var selector = {_id: {$in: ids}}, modifier = {$inc: {}};
