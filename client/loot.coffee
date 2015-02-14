@@ -19,7 +19,7 @@ Template.welcome.helpers
     return bag
 
 Template.list.helpers
-  inventory: () -> Inventory.find {bag: this.bag}
+  inventory: () -> Inventory.find {bag: this.bag}, {sort: order: 1}
   autocomplete_settings: () ->
     position: "bottom"
     limit: 5
@@ -47,7 +47,8 @@ Template.list.events
     item.bag = this.bag
     if not item.quantity?
       item.quantity = 1
-    Inventory.insert(item)
+    Meteor.call "add", item, this.bag
+    #Inventory.insert(item)
   "click #transfer": (event) ->
     event.preventDefault()
     bootbox.prompt "Which bag do you want everything moved to?", (new_bag) =>
@@ -56,9 +57,17 @@ Template.list.events
       Inventory.find(bag: this.bag).forEach (item) ->
         Inventory.update item._id, $set: bag: new_bag
       Router.go("/" + new_bag)
+  "click #sort": (event) ->
+    event.preventDefault()
+    bootbox.prompt
+      title: "Please specify a sort order."
+      "value": "treasure magic armor weapon equipment"
+      callback: (new_order) =>
+        items = Inventory.find(bag: this.bag)
 
 Template.item.helpers
   total_value: () -> this.value * this.quantity
+  total_weight: () -> this.weight * this.quantity
 
 Template.item.events
   "click .button_delete": (event) ->

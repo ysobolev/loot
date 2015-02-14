@@ -30,9 +30,23 @@ Items.deny
   update: () -> true
   remove: () -> true
 
+Inventory.allow
+  insert: () -> true
+  update: () -> true
+  remove: () -> true
+
 Meteor.publish "inventory", (bag) ->
   return Inventory.find bag: bag
 
 Meteor.publish "items", () ->
   return Items.find {}
+
+Meteor.methods
+  add: (item, bag) ->
+    items = Inventory.find {bag: bag}
+    item.bag = bag
+    items = items.map (x) -> x.order or 0
+    max_order = Math.max 0, items...
+    item.order = max_order + 1
+    Inventory.insert item
 

@@ -5,10 +5,9 @@
 # but you can also edit it by hand.
 
 meteor-platform
-insecure
 coffeescript
 mizzao:autocomplete
 mizzao:bootboxjs
 mizzao:bootstrap-3
-rubaxa:sortable
 iron:router
+yury:sortable

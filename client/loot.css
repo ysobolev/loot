@@ -2,6 +2,7 @@
 body {
 /*        background-image: url("background.jpg"); */
     font-family: 'Handlee', cursive;
+    font-size: 200%;
 }
 .table tbody>tr>td{
     vertical-align: middle;
