@@ -20,13 +20,14 @@ def parse_table(table, prefix):
         tds = tr.findAll("td")
         if len(tds) == 0:
             continue
-        item["name"] = tds[0].text.strip()
+        item["name"] = tds[0].text.split("[")[0].strip()
         item["type"] = "equipment"
         item["link"] = prefix
         a = tds[0].find("a")
         if a:
             item["link"] = prefix + a.attrs["href"]
-        cost = sanitize(tds[1].text.lower()).strip()
+        item["craft_dc"] = sanitize(tds[1].text.lower()).strip()
+        cost = sanitize(tds[2].text.lower()).strip()
         if cost == "":
             cost = "0"
         multiplier = 1
@@ -41,7 +42,7 @@ def parse_table(table, prefix):
             value = ""
         item["cost"] = cost
         item["value"] = value
-        item["weight"] = sanitize(tds[2].text.lower()).strip()
+        item["weight"] = sanitize(tds[3].text.lower()).strip()
         items[item["name"]] = item
     return items
 
@@ -53,37 +54,13 @@ def parse_tables(tables, prefix):
 
 items = {}
 
-link = "http://www.d20pfsrd.com/equipment---final/goods-and-services/hunting-camping-survival-gear"
+link = "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances"
 data = requests.get(link).text
 soup = BeautifulSoup(data)
-tables = soup.findAll("table")[4:9]
+tables = soup.findAll("table")[4:5]
 items.update(parse_tables(tables, link))
 
-link = "http://www.d20pfsrd.com/equipment---final/goods-and-services/animals-animal-gear"
-data = requests.get(link).text
-soup = BeautifulSoup(data)
-tables = soup.findAll("table")[4:10]
-items.update(parse_tables(tables, link))
-
-link = "http://www.d20pfsrd.com/equipment---final/goods-and-services/books-paper-writing-supplies"
-data = requests.get(link).text
-soup = BeautifulSoup(data)
-tables = soup.findAll("table")[4:8]
-items.update(parse_tables(tables, link))
-
-link = "http://www.d20pfsrd.com/equipment---final/goods-and-services/containers-bags-boxes-more"
-data = requests.get(link).text
-soup = BeautifulSoup(data)
-tables = soup.findAll("table")[4:9]
-items.update(parse_tables(tables, link))
-
-link = "http://www.d20pfsrd.com/equipment---final/goods-and-services/tools-kits"
-data = requests.get(link).text
-soup = BeautifulSoup(data)
-tables = soup.findAll("table")[4:9]
-items.update(parse_tables(tables, link))
-
-with open("mundane.json", "w") as output:
+with open("alchemy.json", "w") as output:
     json.dump(items.values(), output,
             sort_keys=True, indent=4, separators=(',', ': '))
 

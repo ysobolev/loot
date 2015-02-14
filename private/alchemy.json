@@ -1,0 +1,1451 @@
+[
+    {
+        "cost": 200,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemist-s-Lab",
+        "name": "Alchemist's lab",
+        "type": "equipment",
+        "value": 100.0,
+        "weight": "40 lbs."
+    },
+    {
+        "cost": 10,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Foaming",
+        "name": "Powder, foaming",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 150,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Gel-Fire-Ward",
+        "name": "Gel, fire ward",
+        "type": "equipment",
+        "value": 75.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Unstable-Accelerant",
+        "name": "Unstable Accelerant",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 15,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Cream-Chill",
+        "name": "Cream, chill",
+        "type": "equipment",
+        "value": 7.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Mistletoe",
+        "name": "Mistletoe",
+        "type": "equipment",
+        "value": 0.0,
+        "weight": ""
+    },
+    {
+        "cost": 4,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Moondew",
+        "name": "Moondew",
+        "type": "equipment",
+        "value": 2.0,
+        "weight": ""
+    },
+    {
+        "cost": 30,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Beast-Lure",
+        "name": "Beast lure",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "craft_dc": "10",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Light-Detector",
+        "name": "Light detector",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Paste-Paper-Wall",
+        "name": "Paste, paper wall",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 15,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Dye-Marker",
+        "name": "Dye, marker",
+        "type": "equipment",
+        "value": 7.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Paste-Mending",
+        "name": "Paste, mending",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Oil-Wing",
+        "name": "Oil, wing",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 0.1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tea-Night",
+        "name": "Tea, night",
+        "type": "equipment",
+        "value": 0.05,
+        "weight": ""
+    },
+    {
+        "cost": 15,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tar-Bomb",
+        "name": "Tar bomb",
+        "type": "equipment",
+        "value": 7.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 30,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alkali-Salt",
+        "name": "Alkali salt",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Fury-Drops",
+        "name": "Fury drops",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Brimstone-Sulfur",
+        "name": "Brimstone/Sulfur",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Flash",
+        "name": "Powder, flash",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 30,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tea-Meditation",
+        "name": "Tea, meditation",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Weapon-Blanch",
+        "name": "Weapon blanch, cold iron",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.2,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Phosphorus",
+        "name": "Phosphorus",
+        "type": "equipment",
+        "value": 0.1,
+        "weight": ""
+    },
+    {
+        "cost": 75,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Unguent-Fiendgore",
+        "name": "Unguent, fiendgore",
+        "type": "equipment",
+        "value": 37.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Water-Purification-Sponge",
+        "name": "Water purification sponge",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Antiplague",
+        "name": "Antiplague",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Cold-Iron",
+        "name": "Cold iron",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 15,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Clear-Ear",
+        "name": "Clear ear",
+        "type": "equipment",
+        "value": 7.5,
+        "weight": ""
+    },
+    {
+        "cost": 110,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Hound-s-Blood",
+        "name": "Hound's blood",
+        "type": "equipment",
+        "value": 55.0,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Stillgut",
+        "name": "Stillgut",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Salt",
+        "name": "Salt",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Pox-Burster",
+        "name": "Pox burster",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ifrit-s-Blood",
+        "name": "Ifrit's blood",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 20,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substanceshttp://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Oil-Alchemist-s-Fire",
+        "name": "Alchemist's fire (1 flask)",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Acid",
+        "name": "Acid (1 flask)",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Bomb-Launcher",
+        "name": "Bomb launcher",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 60,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Itching",
+        "name": "Powder, itching",
+        "type": "equipment",
+        "value": 30.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 200,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Weapon-Blanch",
+        "name": "Weapon blanch, ghost salt",
+        "type": "equipment",
+        "value": 100.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 100,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ambrosia",
+        "name": "Ambrosia",
+        "type": "equipment",
+        "value": 50.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 15,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alkali-Flask",
+        "name": "Alkali flask",
+        "type": "equipment",
+        "value": 7.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Air-Crystals",
+        "name": "Air crystals",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 2,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Mugwort-Extract",
+        "name": "Mugwort extract",
+        "type": "equipment",
+        "value": 1.0,
+        "weight": ""
+    },
+    {
+        "cost": 75,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemist-s-Lab-Portable",
+        "name": "Alchemist's lab (portable)",
+        "type": "equipment",
+        "value": 37.5,
+        "weight": "20 lbs."
+    },
+    {
+        "cost": 75,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Beast-Scent",
+        "name": "Beast scent",
+        "type": "equipment",
+        "value": 37.5,
+        "weight": "1/2 lbs."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Paste-Blackfingers",
+        "name": "Paste, blackfingers (1 dose)",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 110,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Torch-Everburning",
+        "name": "Torch, everburning",
+        "type": "equipment",
+        "value": 55.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tanglefoot-Bag",
+        "name": "Tanglefoot bag",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "4 lbs."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Foam-Impact",
+        "name": "Foam, impact",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 35,
+        "craft_dc": "?",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Paste-Shrieking",
+        "name": "Paste, shrieking",
+        "type": "equipment",
+        "value": 17.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 300,
+        "craft_dc": "30",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Soul-Stimulant",
+        "name": "Soul stimulant",
+        "type": "equipment",
+        "value": 150.0,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "craft_dc": "20*",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Hobgoblin-War-Draught",
+        "name": "Hobgoblin war draught",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemical-Glue-Accelerant",
+        "name": "Alchemical glue accelerant",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Oil-Cardice",
+        "name": "Oil, quick freeze",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 30,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Black-Fester",
+        "name": "Black fester",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": ""
+    },
+    {
+        "cost": 75,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ink-Invisible",
+        "name": "Ink, invisible (superior)",
+        "type": "equipment",
+        "value": 37.5,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ooze-Grease",
+        "name": "Ooze, grease",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Brain-Mold-Spores",
+        "name": "Brain mold spores",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Magnesium",
+        "name": "Magnesium",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Poison-Tattoo",
+        "name": "Poison tattoo",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 75,
+        "craft_dc": "?",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Paste-Bone",
+        "name": "Paste, bone (1 sq. ft. or 20 small applications)",
+        "type": "equipment",
+        "value": 37.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 30,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Spider-Sac",
+        "name": "Spider Sac",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 150,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tonic-Blight",
+        "name": "Tonic, blight",
+        "type": "equipment",
+        "value": 75.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 20,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemical-Glue",
+        "name": "Alchemical glue",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 5,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Grease-Alchemical",
+        "name": "Grease, alchemical",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Bloodblock",
+        "name": "Bloodblock",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 2,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Musk-Harpy",
+        "name": "Musk, harpy",
+        "type": "equipment",
+        "value": 1.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Wolfsbane",
+        "name": "Wolfsbane",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 45,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tonic-Twitch",
+        "name": "Tonic, twitch",
+        "type": "equipment",
+        "value": 22.5,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "30",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Troll-Oil",
+        "name": "Troll oil",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 75,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Allnight",
+        "name": "Allnight",
+        "type": "equipment",
+        "value": 37.5,
+        "weight": ""
+    },
+    {
+        "cost": 150,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Salve-Stonechipper",
+        "name": "Salve, stonechipper",
+        "type": "equipment",
+        "value": 75.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Antitoxin",
+        "name": "Antitoxin (vial)",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 30,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Thunderstone",
+        "name": "Thunderstone",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "see text",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Healy-Myrrh",
+        "name": "Healy myrrh",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 100,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Woundweal",
+        "name": "Woundweal",
+        "type": "equipment",
+        "value": 50.0,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Incense",
+        "name": "Incense (10 sticks)",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 200,
+        "craft_dc": "?",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Spellscorch",
+        "name": "Spellscorch",
+        "type": "equipment",
+        "value": 100.0,
+        "weight": "?? lb."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Smoke-Pellet",
+        "name": "Smoke pellet",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 30,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Defoliant",
+        "name": "Defoliant",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Embalming-Fluid",
+        "name": "Embalming fluid",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "10 lbs."
+    },
+    {
+        "cost": 1,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tindertwig",
+        "name": "Tindertwig",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 20,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Poppy-Tears",
+        "name": "Poppy tears",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": ""
+    },
+    {
+        "cost": 40,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Bladeguard",
+        "name": "Bladeguard",
+        "type": "equipment",
+        "value": 20.0,
+        "weight": ""
+    },
+    {
+        "cost": 75,
+        "craft_dc": "30",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Fungal-Stun-Vial",
+        "name": "Fungal stun vial",
+        "type": "equipment",
+        "value": 37.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Unguent-of-Revivification",
+        "name": "Unguent of revivification (1 dose)",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 100,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemical-Coal",
+        "name": "Alchemical coal (blinding cinders)",
+        "type": "equipment",
+        "value": 50.0,
+        "weight": ""
+    },
+    {
+        "cost": 60,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Smoke-Pellet",
+        "name": "Smoke pellet, pepper",
+        "type": "equipment",
+        "value": 30.0,
+        "weight": ""
+    },
+    {
+        "cost": 30,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ointment-Armor",
+        "name": "Ointment, armor",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 10,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Black",
+        "name": "Powder, Black",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": 20,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Flayleaf",
+        "name": "Flayleaf",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0.01,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Normal",
+        "name": "Powder, normal",
+        "type": "equipment",
+        "value": 0.005,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Leaves-Golden-Maple",
+        "name": "Leaves, Golden Maple",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 2,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Sunrod",
+        "name": "Sunrod",
+        "type": "equipment",
+        "value": 1.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemist-s-Kindness",
+        "name": "Alchemist's kindness",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": "/20"
+    },
+    {
+        "cost": 30,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Terrap-Sap-Distilled",
+        "name": "Terrap sap (distilled)",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 60,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Sneezing",
+        "name": "Powder, sneezing",
+        "type": "equipment",
+        "value": 30.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Caphorite-Dust",
+        "name": "Dimmer dust",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 1,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Candlerod",
+        "name": "Candlerod",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 40,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Smoke-Pellet",
+        "name": "Smoke pellet, smog",
+        "type": "equipment",
+        "value": 20.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Myrrh",
+        "name": "Myrrh",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 0.1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Garlic",
+        "name": "Garlic",
+        "type": "equipment",
+        "value": 0.05,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 80,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Padzahr",
+        "name": "Vitus (flask)",
+        "type": "equipment",
+        "value": 40.0,
+        "weight": ""
+    },
+    {
+        "cost": 15,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Noxious-Aromatic",
+        "name": "Noxious aromatic",
+        "type": "equipment",
+        "value": 7.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Oil-Kerosine",
+        "name": "Oil, kerosine",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 300,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Artificer-s-Lab-Portable",
+        "name": "Artificer's lab (portable)",
+        "type": "equipment",
+        "value": 150.0,
+        "weight": "40 lbs."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Bodybalm",
+        "name": "Bodybalm",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Tobacco",
+        "name": "Tobacco",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 15,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Keif",
+        "name": "Keif",
+        "type": "equipment",
+        "value": 7.5,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Quicksilver",
+        "name": "Quicksilver",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 2,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Belladonna",
+        "name": "Belladonna",
+        "type": "equipment",
+        "value": 1.0,
+        "weight": ""
+    },
+    {
+        "cost": 20,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Smokestick",
+        "name": "Smokestick",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemical-Coal",
+        "name": "Alchemical coal (choking smoke)",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 40,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Wild-Musk",
+        "name": "Musk, wild",
+        "type": "equipment",
+        "value": 20.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 5,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemical-Cement",
+        "name": "Alchemical cement",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 40,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Brewed-Reek",
+        "name": "Brewed reek",
+        "type": "equipment",
+        "value": 20.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Barbarian-Chew",
+        "name": "Barbarian chew",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 25,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ink-Invisible",
+        "name": "Ink, invisible (good)",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Gold",
+        "name": "Gold",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 80,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Incense-Scentbane",
+        "name": "Incense, scentbane",
+        "type": "equipment",
+        "value": 40.0,
+        "weight": ""
+    },
+    {
+        "cost": 5,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ink-Glowing",
+        "name": "Ink, glowing",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 25,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Oil-Anointing",
+        "name": "Oil, anointing",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 3,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Realgar",
+        "name": "Realgar",
+        "type": "equipment",
+        "value": 1.5,
+        "weight": ""
+    },
+    {
+        "cost": 25,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Shadowcloy",
+        "name": "Shadowcloy (flask)",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 60,
+        "craft_dc": "30",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Rusting",
+        "name": "Powder, rusting",
+        "type": "equipment",
+        "value": 30.0,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ink-Invisible",
+        "name": "Ink, invisible (average)",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": ""
+    },
+    {
+        "cost": 25,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Smelling-Salts",
+        "name": "Smelling salts",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 40,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Liquid-Ice",
+        "name": "Liquid ice",
+        "type": "equipment",
+        "value": 20.0,
+        "weight": "2 lb."
+    },
+    {
+        "cost": "5,000 gp",
+        "craft_dc": "30",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Blightburn-Paste",
+        "name": "Blightburn paste",
+        "type": "equipment",
+        "value": "",
+        "weight": "45 lb."
+    },
+    {
+        "cost": 100,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Troll-Styptic",
+        "name": "Troll styptic",
+        "type": "equipment",
+        "value": 50.0,
+        "weight": ""
+    },
+    {
+        "cost": 100,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Weapon-Blanch",
+        "name": "Weapon blanch, adamantine",
+        "type": "equipment",
+        "value": 50.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Spirit-of-Wine",
+        "name": "Spirit of Wine",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 30,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Wismuth-Salix",
+        "name": "Peptus salix",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Fleshgem",
+        "name": "Fleshgem (spiked)",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 20,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Scent-Cloak",
+        "name": "Scent cloak",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 0,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Holly",
+        "name": "Holly",
+        "type": "equipment",
+        "value": 0.0,
+        "weight": ""
+    },
+    {
+        "cost": 750,
+        "craft_dc": "see text",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Silversheen",
+        "name": "Silversheen",
+        "type": "equipment",
+        "value": 375.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Urea",
+        "name": "Urea",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 150,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Gel-Frost-Ward",
+        "name": "Gel, frost ward",
+        "type": "equipment",
+        "value": 75.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Weapon-Blanch",
+        "name": "Weapon blanch, silver",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 5,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Repellent-Vermin",
+        "name": "Repellent, vermin",
+        "type": "equipment",
+        "value": 2.5,
+        "weight": ""
+    },
+    {
+        "cost": 30,
+        "craft_dc": "25",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Deodorizing-Agent",
+        "name": "Deodorizing agent",
+        "type": "equipment",
+        "value": 15.0,
+        "weight": ""
+    },
+    {
+        "cost": 3,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Saltpeter",
+        "name": "Saltpeter",
+        "type": "equipment",
+        "value": 1.5,
+        "weight": ""
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Plaster-Casting",
+        "name": "Plaster, casting",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": "5 lbs."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Mellowroot",
+        "name": "Mellowroot",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": ""
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Fleshgem",
+        "name": "Fleshgem (decorative)",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 50,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemical-Preserves",
+        "name": "Alchemical preserves",
+        "type": "equipment",
+        "value": 25.0,
+        "weight": ""
+    },
+    {
+        "cost": 0,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Holly-and-Mistletoe",
+        "name": "Holly and mistletoe",
+        "type": "equipment",
+        "value": 0.0,
+        "weight": ""
+    },
+    {
+        "cost": 10,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Buoyant-Balloon",
+        "name": "Buoyant balloon",
+        "type": "equipment",
+        "value": 5.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Silver",
+        "name": "Silver",
+        "type": "equipment",
+        "value": 0.5,
+        "weight": ""
+    },
+    {
+        "cost": 20,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Alchemical-Solvent",
+        "name": "Alchemical solvent",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 80,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Elemental-Breath",
+        "name": "Elemental breath",
+        "type": "equipment",
+        "value": 40.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 20,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Elemental-Flux",
+        "name": "Elemental flux (flask)",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 100,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Lichen-Camouflage-Lichen",
+        "name": "Lichen, camouflage",
+        "type": "equipment",
+        "value": 50.0,
+        "weight": ""
+    },
+    {
+        "cost": 20,
+        "craft_dc": "?",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Dye-Hide",
+        "name": "Dye, hide",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 80,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ooze-Petrified",
+        "name": "Ooze, petrified",
+        "type": "equipment",
+        "value": 40.0,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 25,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Soothe-Syrup",
+        "name": "Soothe syrup",
+        "type": "equipment",
+        "value": 12.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 60,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Powder-Insomnia",
+        "name": "Powder, insomnia",
+        "type": "equipment",
+        "value": 30.0,
+        "weight": "2 lbs."
+    },
+    {
+        "cost": 2,
+        "craft_dc": "15",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ink-Invisible",
+        "name": "Ink, invisible (simple)",
+        "type": "equipment",
+        "value": 1.0,
+        "weight": ""
+    },
+    {
+        "cost": 0.1,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Oil-Lamp",
+        "name": "Oil, lamp",
+        "type": "equipment",
+        "value": 0.05,
+        "weight": "1 lb."
+    },
+    {
+        "cost": 45,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Gel-Phosphorescent",
+        "name": "Gel, phosphorescent",
+        "type": "equipment",
+        "value": 22.5,
+        "weight": "1/2 lb."
+    },
+    {
+        "cost": 0.5,
+        "craft_dc": "",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Ginger-Extract",
+        "name": "Ginger extract",
+        "type": "equipment",
+        "value": 0.25,
+        "weight": ""
+    },
+    {
+        "cost": 20,
+        "craft_dc": "20",
+        "link": "http://www.d20pfsrd.com/equipment---final/goods-and-services/herbs-oils-other-substances#TOC-Clay-Blackfire",
+        "name": "Clay, blackfire",
+        "type": "equipment",
+        "value": 10.0,
+        "weight": "10 lbs."
+    }
+]
