@@ -43,10 +43,36 @@ Meteor.publish "items", () ->
 
 Meteor.methods
   add: (item, bag) ->
+    check item, Object
+    check bag, String
     items = Inventory.find {bag: bag}
     item.bag = bag
     items = items.map (x) -> x.order or 0
     max_order = Math.max 0, items...
     item.order = max_order + 1
     Inventory.insert item
+
+  sort: (type_order, bag) ->
+    console.log type_order, bag
+    check type_order, String
+    check bag, String
+    console.log type_order
+    all_items = Inventory.find bag: bag
+    console.log "got items"
+    orders = all_items.map (item) -> item.order or 0
+    console.log orders
+    counter = Math.max orders.length, orders...
+    console.log counter
+    type_order = type_order.split(" ").reverse()
+    console.log type_order
+    for type in type_order
+      console.log type
+      items = Inventory.find
+        bag: bag
+        type:
+          $regex: type
+      items.forEach (item) ->
+        console.log "setting #{item.name}: #{item.order} -> #{counter}"
+        Inventory.update item._id, $set: order: counter
+        counter -= 1
 

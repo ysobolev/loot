@@ -43,12 +43,10 @@ Template.list.events
     if not item?
       item = {name:item_name}
     else
-      item._id = new Meteor.Collection.ObjectID()
-    item.bag = this.bag
+      delete item._id
     if not item.quantity?
       item.quantity = 1
     Meteor.call "add", item, this.bag
-    #Inventory.insert(item)
   "click #transfer": (event) ->
     event.preventDefault()
     bootbox.prompt "Which bag do you want everything moved to?", (new_bag) =>
@@ -62,8 +60,10 @@ Template.list.events
     bootbox.prompt
       title: "Please specify a sort order."
       "value": "treasure magic armor weapon equipment"
-      callback: (new_order) =>
-        items = Inventory.find(bag: this.bag)
+      callback: (type_order) =>
+        if not type_order? or type_order == ""
+          return
+        Meteor.call "sort", type_order, this.bag
 
 Template.item.helpers
   total_value: () -> this.value * this.quantity
