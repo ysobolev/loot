@@ -8,7 +8,7 @@
    {
       "type" : "treasure",
       "name" : "Silver piece",
-      "value" : 0.1
+      "value" : 0.1,
       "cost" : 0.1
    },
    {
