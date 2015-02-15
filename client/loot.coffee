@@ -68,6 +68,7 @@ Template.list.events
 Template.item.helpers
   total_value: () -> this.value * this.quantity
   total_weight: () -> this.weight * this.quantity
+  id: () ->  this._id._str or this._id
 
 Template.item.events
   "click .button_delete": (event) ->
