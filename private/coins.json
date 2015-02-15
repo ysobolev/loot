@@ -1,6 +1,7 @@
 [
    {
       "value" : 0.01,
+      "cost" : 0.01,
       "name" : "Copper piece",
       "type" : "treasure"
    },
@@ -8,14 +9,17 @@
       "type" : "treasure",
       "name" : "Silver piece",
       "value" : 0.1
+      "cost" : 0.1
    },
    {
       "value" : 1,
+      "cost" : 1,
       "type" : "treasure",
       "name" : "Gold piece"
    },
    {
       "value" : 10,
+      "cost" : 10,
       "name" : "Platinum piece",
       "type" : "treasure"
    }
