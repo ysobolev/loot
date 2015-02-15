@@ -10,6 +10,7 @@ class Item:
         self.link = set()
         self.slot = set()
         self.value = set()
+        self.cost = set()
         self.descriptor = set()
         self.weight = set()
         self.school = set()
@@ -39,10 +40,12 @@ class Item:
         self.descriptor.add(row["[Descriptor1]"].lower())
         self.descriptor.add(row["[Descriptor2]"].lower())
         self.descriptor.add(row["[Descriptor3]"].lower())
-        self.weight.add(row["Weight (lbs.)"].lower())
-        self.weight.add(row["WeightValue"].lower())
         self.value.add(row["Craft Cost (gp)"].lower())
         self.value.add(row["CostValue"].lower())
+        self.cost.add(row["Purchase Price (gp)"].lower())
+        self.cost.add(row["PriceValue"].lower())
+        self.weight.add(row["Weight (lbs.)"].lower())
+        self.weight.add(row["WeightValue"].lower())
 
         drop = ["null", "none", "-", "", "n/a", "N/A", "NULL", "None", "Null",
                 "None"]
@@ -56,6 +59,7 @@ class Item:
         self.descriptor.difference_update(drop)
         self.weight.difference_update(drop)
         self.value.difference_update(drop)
+        self.cost.difference_update(drop)
 
     def as_dict(self):
         item = {}
@@ -67,6 +71,7 @@ class Item:
         item["base_item"] = " or ".join(self.base_item)
         item["caster_level"] = " or ".join(self.caster_level)
         item["value"] = " or ".join(self.value)
+        item["cost"] = " or ".join(self.cost)
         item["weight"] = " or ".join(self.weight)
         try:
             item["link"] = self.link.pop()
