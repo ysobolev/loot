@@ -1,5 +1,3 @@
-Items = new Mongo.Collection("items")
-Inventory = new Mongo.Collection("inventory")
 
 Router.route "/", () -> this.render "welcome"
 Router.route "/:bag", () ->
@@ -73,11 +71,6 @@ Template.item.helpers
 Template.item.events
   "click .button_delete": (event) ->
     Inventory.remove this._id
-  "change .item_property" : (event, context) ->
-    property = $(event.target).attr "data-property"
-    obj = {}
-    obj[property] = event.target.value
-    Inventory.update this._id, $set: obj
 
 methods =
   is_magic: () -> (this.type.indexOf "magic") > -1
