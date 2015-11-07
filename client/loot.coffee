@@ -115,7 +115,7 @@ Template.navbar.events
       delete new_item._id
       new_item.quantity = 0
       for item in set
-        new_item.quantity += item.quantity
+        new_item.quantity += parseInt(item.quantity)
         Inventory.remove item._id
       Meteor.call "add", new_item, this.bag
 
@@ -148,7 +148,6 @@ Template.navbar.events
   "click .action_stats": (event) ->
     event.preventDefault()
     items = Inventory.find({_id: {$in: Session.get "selected"}}).fetch()
-    Session.set "selected", []
     values = (item.quantity * item.value for item in items)
     value = values.reduce (a, b) -> a + b
     bootbox.alert "This is worth a total of #{value} gold."
