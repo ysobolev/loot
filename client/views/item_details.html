@@ -1,0 +1,62 @@
+<template name="details_item">
+<div class="row">
+{{> field size=4 name="name" label="Name" data=this}}
+{{> field size=4 name="cost" label="Cost" data=this}}
+{{> field size=4 name="weight" label="Weight" data=this}}
+</div>
+<div class="row">
+{{> field size=12 name="type" label="Item Type (magic, armor, weapon, equipment)" data=this}}
+</div>
+<div class="row">
+{{> field size=12 name="link" label="Link" data=this}}
+</div>
+<div class="row">
+{{> field size=12 name="owner" label="Owner" data=this}}
+</div>
+<div class="row">
+{{> field size=12 name="notes" label="Notes" data=this}}
+</div>
+</template>
+
+<template name="details_armor">
+<div class="row">
+{{> field size=6 name="bonus" label="Armor Bonus" data=this}}
+{{> field size=6 name="enchantment" label="Enchantment" data=this}}
+</div>
+</template>
+
+<template name="details_equipment">
+<div class="row">
+{{> field size=6 name="craft_dc" label="Craft DC" data=this}}
+</div>
+</template>
+
+<template name="details_magic">
+<div class="row">
+{{> field size=4 name="base_item" label="Base Item" data=this}}
+{{> field size=4 name="slot" label="Slot" data=this}}
+{{> field size=4 name="caster_level" label="Caster Level" data=this}}
+</div>
+<div class="row">
+{{> field size=4 name="enchantment" label="Enchantment" data=this}}
+{{> field size=4 name="aura_strength" label="Aura Strength" data=this}}
+{{> field size=4 name="aura_type" label="Aura Type" data=this}}
+</div>
+</template>
+
+<template name="details_treasure">
+</template>
+
+<template name="details_weapon">
+<div class="row">
+{{> field size=4 name="damage_m" label="Damange (medium)" data=this}}
+{{> field size=4 name="damage_s" label="Damage (small)" data=this}}
+{{> field size=4 name="enchantment" label="Enchantment" data=this}}
+</div>
+<div class="row">
+{{> field size=4 name="proficiency" label="Proficiency" data=this}}
+{{> field size=4 name="class" label="Class" data=this}}
+{{> field size=4 name="weapon_type" label="Type" data=this}}
+</div>
+</template>
+
