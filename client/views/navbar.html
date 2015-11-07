@@ -1,0 +1,48 @@
+<template name="navbar">
+<nav class="navbar {{navbar_class}}">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <div class="pull-left">
+      &nbsp;&nbsp;
+    </div>
+      <ul class="nav navbar-nav pull-left">
+    {{#if select_one}}
+        <li class="pull-left"><a href="#"><i class="fa fa-check-square-o"> All</i></a></li>
+        <li class="pull-left"><a href="#"><i class="fa fa-square-o"> None</i></a></li>
+      {{else}}
+	      <li class="pull-left"><a href="#"><i class="fa fa-plus"></i> Add</a></li>
+	      <li class="dropdown pull-right"><a href="#" class="dropdown_toggle" data-toggle="dropdown"><i class="fa fa-caret-down"></i> All</a>
+	        <ul class="dropdown-menu">
+	          <li class="active"><a href="#">All</a></li>
+	          <li><a href="#">Treasure</a></li>
+	          <li><a href="#">Magic</a></li>
+	          <li><a href="#">Armor</a></li>
+	          <li><a href="#">Weapons</a></li>
+	          <li><a href="#">Other</a></li>
+		</ul>
+	      </li>
+    {{/if}}
+      </ul>
+    {{#if select_one}}
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"><i class="fa fa-bars"></i></button>
+      {{/if}}
+    </div>
+    <div class="collapse navbar-collapse" id="navbar">
+	<ul class="nav navbar-nav">
+        {{#if select_one}}
+	      <li><a href="#"><i class="fa fa-pencil"> Edit</i></a></li>
+	      <li><a href="#"><i class="fa fa-exchange"> Split</i></a></li>
+	      <li><a href="#"><i class="fa fa-paper-plane"> Transfer</i></a></li>
+	      <li><a href="#"><i class="fa fa-trash"></i> Trash</a></li>
+        {{else}} {{#if select_many}}
+	      <li><a href="#"><i class="fa fa-bar-chart"></i> Stats</a></li>
+	      <li><a href="#"><i class="fa fa-exchange"></i>Transfer</a></li>
+	      <li><a href="#"><i class="fa fa-trash"></i>Trash</a></li>
+	{{else}}
+        {{/if}} {{/if}}
+      </ul>
+    </div>
+  </div>
+</nav>
+</template>
+

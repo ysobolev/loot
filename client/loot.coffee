@@ -29,6 +29,32 @@ Template.list.helpers
   sortable_settings: () ->
     draggable: ".item"
     handle: ".handle"
+  settings: () ->
+    collection: Inventory.find {bag: this.bag}, {sort: order: 1}
+    showNavigation: "never"
+    fields: [
+      key: "name"
+      label: "Name"
+      headerClass: "col-md-6"
+    ,
+      key: "quantity"
+      label: "Quantity"
+      headerClass: "col-md-2"
+    ,
+      key: "value"
+      label: "Value"
+      headerClass: "col-md-2"
+    ,
+      key: "order"
+      label: "Order"
+      headerClass: "col-md-2"
+      ]
+    filters: ["filter"]
+
+Template.navbar.helpers
+  select_one: () -> false
+  select_many: () -> false
+  navbar_class: () -> "navbar-default"
 
 Template.list.events
   "click #button_add_item": (event) ->
