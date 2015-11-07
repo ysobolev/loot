@@ -1,0 +1,53 @@
+<template name="field">
+	<tr><td>{{label}}</td><td><input type="text" class="item_property form-control input-sm" data-property="{{name}}" value="{{value}}"></td></tr>
+</template>
+
+<template name="edit_item">
+<div class="modal fade">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+<h4 class="modal-title">Edit Item</h4>
+</div>
+<div class="modal-body">
+<div class="container-fluid">
+
+<div class="row">
+<div class="alert alert-info" role="alert">
+<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+Note: changes take effect immediately.
+</div>
+</div>
+
+<div class="row">
+<ul class="nav nav-tabs">
+	<li class="active"><a href="#">General</a></li>
+	{{#each tabs}}
+	<li><a href="#">{{this}}</a></li>
+	{{/each}}
+</ul>
+<div class="tab-content">
+
+<div class="tab-pane active" id="tab_general">
+<table class="table">
+<thead><tr><th>Key</th><th>Value</th></tr></thead>
+<tbody>
+{{> field name="name" label="Name" data=item}}
+{{> field name="type" label="Type" data=item}}
+{{> field name="quantity" label="Quantity" data=item}}
+{{> field name="value" label="Value" data=item}}
+</tbody>
+</table>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</template>
+

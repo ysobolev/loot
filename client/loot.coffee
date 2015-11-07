@@ -159,6 +159,10 @@ Template.navbar.events
       if not new_bag? or new_bag == ""
         return
       Router.go("/" + new_bag)
+  
+  "click .action_edit": (event) ->
+    item = Inventory.findOne Session.get("selected")[0]
+    Modal.show "edit_item", {bag: this.bag, item:item}
 
 Template.list.events
   "click .reactive-table tbody tr": (event) ->
@@ -231,6 +235,21 @@ Template.add_item.events
     else
       delete item._id
     Meteor.call "add", item, this.bag
+
+Template.edit_item.helpers
+  tabs: () ->
+    this.item.type.split " "
+
+Template.field.helpers
+  value: () ->
+    this.data[this.name]
+
+Template.field.events
+  "change .item_property" : (event, context) ->
+    property = $(event.target).attr "data-property"
+    obj = {}
+    obj[property] = event.target.value
+    Inventory.update this.data._id, $set: obj
 
 methods =
   is_magic: () -> (this.type.indexOf "magic") > -1
