@@ -5,41 +5,54 @@
     <div class="pull-left">
       &nbsp;&nbsp;
     </div>
-      <ul class="nav navbar-nav pull-left">
-    {{#if select_one}}
-        <li class="pull-left"><a href="#"><i class="fa fa-check-square-o"> All</i></a></li>
-        <li class="pull-left"><a href="#"><i class="fa fa-square-o"> None</i></a></li>
-      {{else}}
-	      <li class="pull-left"><a href="#"><i class="fa fa-plus"></i> Add</a></li>
-	      <li class="dropdown pull-right"><a href="#" class="dropdown_toggle" data-toggle="dropdown"><i class="fa fa-caret-down"></i> All</a>
-	        <ul class="dropdown-menu">
-	          <li class="active"><a href="#">All</a></li>
-	          <li><a href="#">Treasure</a></li>
-	          <li><a href="#">Magic</a></li>
-	          <li><a href="#">Armor</a></li>
-	          <li><a href="#">Weapons</a></li>
-	          <li><a href="#">Other</a></li>
-		</ul>
-	      </li>
+    {{#if selected}}
+    {{else}}
+    <div class="pull-right">
+      &nbsp;&nbsp;
+    </div>
     {{/if}}
+      <ul class="nav navbar-nav pull-left">
+        {{#if selected}}
+	<li class="pull-left"><a href="#" id="select_all"><i class="fa fa-check-square-o"> All</i></a></li>
+          <li class="pull-left"><a href="#" id="select_none"><i class="fa fa-square-o"> None</i></a></li>
+        {{else}}
+          <li class="pull-left"><a href="#" id="action_add"><i class="fa fa-plus"></i> Add</a></li>
+	  <li class="dropdown pull-right"><a href="#" class="dropdown_toggle" data-toggle="dropdown"><i class="fa fa-caret-down"></i> {{current_type}}</a>
+	    <ul class="dropdown-menu">
+	      <li><a href="#" id="type_all">All</a></li>
+	      <li><a href="#" id="type_treasure">Treasure</a></li>
+	      <li><a href="#" id="type_magic">Magic</a></li>
+	      <li><a href="#" id="type_armor">Armor</a></li>
+	      <li><a href="#" id="type_weapon">Weapons</a></li>
+	      <li><a href="#" id="type_equipment">Equipment</a></li>
+	    </ul>
+          </li>
+        {{/if}}
       </ul>
-    {{#if select_one}}
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"><i class="fa fa-bars"></i></button>
+	{{#if selected}}
+	{{else}}
+      <ul class="nav navbar-nav pull-right">
+          <li><a href="#" id="action_switch"><i class="fa fa-location-arrow"></i> Switch</a></li>
+      </ul>
+      {{/if}}
+      {{#if selected}}
+        <button type="button" class="btn btn-default navbar-toggle btn-link" data-toggle="collapse" data-target="#navbar"><i class="fa fa-bars"></i></button>
       {{/if}}
     </div>
     <div class="collapse navbar-collapse" id="navbar">
 	<ul class="nav navbar-nav">
         {{#if select_one}}
-	      <li><a href="#"><i class="fa fa-pencil"> Edit</i></a></li>
-	      <li><a href="#"><i class="fa fa-exchange"> Split</i></a></li>
-	      <li><a href="#"><i class="fa fa-paper-plane"> Transfer</i></a></li>
-	      <li><a href="#"><i class="fa fa-trash"></i> Trash</a></li>
+	      <li><a href="#" class="action_edit"><i class="fa fa-pencil"> Edit</i></a></li>
+	      <li><a href="#" class="action_split"><i class="fa fa-object-ungroup"> Split</i></a></li>
+	      <li><a href="#" class="action_clone"><i class="fa fa-clone"> Clone</i></a></li>
         {{else}} {{#if select_many}}
-	      <li><a href="#"><i class="fa fa-bar-chart"></i> Stats</a></li>
-	      <li><a href="#"><i class="fa fa-exchange"></i>Transfer</a></li>
-	      <li><a href="#"><i class="fa fa-trash"></i>Trash</a></li>
-	{{else}}
+	      <li><a href="#" class="action_merge"><i class="fa fa-object-group"> Merge</i></a></li>
         {{/if}} {{/if}}
+	{{#if selected}}
+	      <li><a href="#" class="action_stats"><i class="fa fa-bar-chart"></i> Stats</a></li>
+	      <li><a href="#" class="action_transfer"><i class="fa fa-exchange"></i>Transfer</a></li>
+	      <li><a href="#" class="action_trash"><i class="fa fa-trash"></i>Trash</a></li>
+	 {{/if}}
       </ul>
     </div>
   </div>

@@ -17,25 +17,14 @@ Template.welcome.helpers
     return bag
 
 Template.list.helpers
-  inventory: () -> Inventory.find {bag: this.bag}, {sort: order: 1}
-  autocomplete_settings: () ->
-    position: "bottom"
-    limit: 5
-    rules: [
-      collection: Items
-      field: "name"
-      template: Template.item_short
-    ]
-  sortable_settings: () ->
-    draggable: ".item"
-    handle: ".handle"
   settings: () ->
-    collection: Inventory.find {bag: this.bag}, {sort: order: 1}
+    collection: Inventory.find {bag: this.bag, type: {$regex: Session.get "type"}}, {sort: order: 1}
     showNavigation: "never"
     fields: [
       key: "name"
       label: "Name"
       headerClass: "col-md-6"
+      tmpl: Template.table_item
     ,
       key: "quantity"
       label: "Quantity"
@@ -50,14 +39,187 @@ Template.list.helpers
       headerClass: "col-md-2"
       ]
     filters: ["filter"]
+    rowClass: (item) ->
+      selected = Session.get("selected")
+      if item._id in selected
+        "info"
+      else
+        ""
 
 Template.navbar.helpers
-  select_one: () -> false
-  select_many: () -> false
-  navbar_class: () -> "navbar-default"
+  select_one: () -> Session.get("selected").length == 1
+  select_many: () -> Session.get("selected").length > 1
+  selected: () -> Session.get("selected").length >= 1
+  current_type: () ->
+    type = Session.get "type"
+    if type == ""
+      "All"
+    else
+      type[0].toUpperCase() + type[1..-1]
+  navbar_class: () ->
+    if Session.get("selected").length >= 1
+      "navbar-inverse"
+    else
+      "navbar-default"
+
+Template.navbar.events
+  "click .action_split": (event) ->
+    event.preventDefault()
+    item = Inventory.findOne Session.get("selected")[0]
+    Session.set "selected", []
+    bootbox.prompt "How many do you wish to separate?", (split) =>
+      split = parseInt(split) or 0
+      if split <= 0
+        return
+      if split == item.quantity
+        return
+      if split > item.quantity
+        return bootbox.alert "You do not have that many."
+      Inventory.update item._id, $set: quantity: item.quantity - split
+      new_item = {}
+      for key of item
+        new_item[key] = item[key]
+      delete new_item._id
+      new_item.quantity = split
+      Meteor.call "add", new_item, this.bag
+
+  "click .action_merge": (event) ->
+    event.preventDefault()
+    items = Inventory.find({_id: {$in: Session.get "selected"}}).fetch()
+    Session.set "selected", []
+
+    similar = (item1, item2) ->
+      for key of item1
+        if key not in ["_id", "quantity", "order"]
+          if item1[key] != item2[key]
+            return false
+      true
+
+    unique = []
+    for item in items
+      matched = false
+      for set in unique
+        if similar item, set[0]
+          set.push item
+          matched = true
+          break
+      if not matched
+        unique.push [item]
+
+    for set in unique
+      if set.length == 1
+        continue
+      new_item = {}
+      for key of set[0]
+        new_item[key] = set[0][key]
+      delete new_item._id
+      new_item.quantity = 0
+      for item in set
+        new_item.quantity += item.quantity
+        Inventory.remove item._id
+      Meteor.call "add", new_item, this.bag
+
+  "click .action_clone": (event) ->
+    event.preventDefault()
+    item = Inventory.findOne Session.get("selected")[0]
+    Session.set "selected", []
+    new_item = {}
+    for key of item
+      new_item[key] = item[key]
+    delete new_item._id
+    Meteor.call "add", new_item, this.bag
+
+  "click .action_transfer": (event) ->
+    event.preventDefault()
+    bootbox.prompt "Which bag do you want this moved to?", (new_bag) =>
+      if not new_bag? or new_bag == ""
+        return
+      Inventory.find(bag: this.bag).forEach (item) ->
+        if item._id in Session.get("selected")
+          Inventory.update item._id, $set: bag: new_bag
+      Router.go("/" + new_bag)
+  
+  "click .action_trash": (event) ->
+    event.preventDefault()
+    for item in Session.get "selected"
+      Inventory.remove item
+    Session.set "selected", []
+
+  "click .action_stats": (event) ->
+    event.preventDefault()
+    items = Inventory.find({_id: {$in: Session.get "selected"}}).fetch()
+    Session.set "selected", []
+    values = (item.quantity * item.value for item in items)
+    value = values.reduce (a, b) -> a + b
+    bootbox.alert "This is worth a total of #{value} gold."
+
+  "click #action_switch": (event) ->
+    event.preventDefault()
+    bootbox.prompt "Which bag do you want to go to?", (new_bag) =>
+      if not new_bag? or new_bag == ""
+        return
+      Router.go("/" + new_bag)
 
 Template.list.events
-  "click #button_add_item": (event) ->
+  "click .reactive-table tbody tr": (event) ->
+    selected = Session.get "selected"
+    if this._id in selected
+      selected.splice (selected.indexOf this._id), 1
+    else
+      selected.push this._id
+    Session.set "selected", selected
+  "click #select_none": (event) ->
+    Session.set "selected", []
+  "click #select_all": (event) ->
+    Session.set "selected", (item._id for item in Inventory.find({bag: this.bag, type: {$regex: Session.get "type"}}).fetch())
+  "click #type_all": (event) ->
+    Session.set "selected", []
+    Session.set "type", ""
+  "click #type_treasure": (event) ->
+    Session.set "selected", []
+    Session.set "type", "treasure"
+  "click #type_magic": (event) ->
+    Session.set "selected", []
+    Session.set "type", "magic"
+  "click #type_armor": (event) ->
+    Session.set "selected", []
+    Session.set "type", "armor"
+  "click #type_weapon": (event) ->
+    Session.set "selected", []
+    Session.set "type", "weapon"
+  "click #type_equipment": (event) ->
+    Session.set "selected", []
+    Session.set "type", "equipment"
+  "click #action_add": (event) ->
+    Modal.show "add_item", {bag: this.bag}
+
+Template.item.helpers
+  total_value: () -> this.value * this.quantity
+  total_weight: () -> this.weight * this.quantity
+  id: () ->  this._id._str or this._id
+
+Template.add_item.helpers
+  item_type: () ->
+    type = Session.get "type"
+    if type == ""
+      "Item"
+    else if type == "magic"
+      "Magic Item"
+    else
+      type[0].toUpperCase() + type[1..-1]
+  autocomplete_settings: () ->
+    position: "bottom"
+    limit: 5
+    rules: [
+      collection: Items
+      field: "name"
+      filter: {type: {$regex: Session.get "type"}}
+      template: Template.item_short
+    ]
+
+Template.add_item.events
+  "click #button_add": (event) ->
+    Modal.hide("add_item")
     event.preventDefault()
     item_name = $("#ac_name").val()
     $("#ac_name").val("")
@@ -68,35 +230,7 @@ Template.list.events
       item = {name:item_name}
     else
       delete item._id
-    if not item.quantity?
-      item.quantity = 1
     Meteor.call "add", item, this.bag
-  "click #transfer": (event) ->
-    event.preventDefault()
-    bootbox.prompt "Which bag do you want everything moved to?", (new_bag) =>
-      if not new_bag? or new_bag == ""
-        return
-      Inventory.find(bag: this.bag).forEach (item) ->
-        Inventory.update item._id, $set: bag: new_bag
-      Router.go("/" + new_bag)
-  "click #sort": (event) ->
-    event.preventDefault()
-    bootbox.prompt
-      title: "Please specify a sort order."
-      "value": "treasure magic armor weapon equipment"
-      callback: (type_order) =>
-        if not type_order? or type_order == ""
-          return
-        Meteor.call "sort", type_order, this.bag
-
-Template.item.helpers
-  total_value: () -> this.value * this.quantity
-  total_weight: () -> this.weight * this.quantity
-  id: () ->  this._id._str or this._id
-
-Template.item.events
-  "click .button_delete": (event) ->
-    Inventory.remove this._id
 
 methods =
   is_magic: () -> (this.type.indexOf "magic") > -1

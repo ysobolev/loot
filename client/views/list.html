@@ -6,7 +6,7 @@
 </template>
 
 <template name="list">
-{{> navbar}}
+{{> navbar bag=this.bag}}
 <div class="reactive-table-filter form-group col-sm-8 pull-left">
   {{> reactiveTableFilter id="filter" useFontAwesome=true}}
 </div>

@@ -56,21 +56,11 @@ Meteor.methods
     items = items.map (x) -> x.order or 0
     max_order = Math.max 0, items...
     item.order = max_order + 1
+    if not item.type?
+      item.type = ""
+    if not item.quantity?
+      item.quantity = 1
+    if not item.value?
+      item.value = 0
     Inventory.insert item
-
-  sort: (type_order, bag) ->
-    check type_order, String
-    check bag, String
-    all_items = Inventory.find bag: bag
-    orders = all_items.map (item) -> item.order or 0
-    counter = Math.max orders.length, orders...
-    type_order = type_order.split(" ").reverse()
-    for type in type_order
-      items = Inventory.find
-        bag: bag
-        type:
-          $regex: type
-      items.forEach (item) ->
-        Inventory.update item._id, $set: order: counter
-        counter -= 1
 

@@ -1,0 +1,28 @@
+<template name="add_item">
+<div class="modal fade">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+<h4 class="modal-title">Add {{item_type}}</h4>
+</div>
+
+<div class="modal-body">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-10 col-xs-10">
+{{> inputAutocomplete settings=autocomplete_settings id="ac_name" class="input-large form-control" autocomplete="off" placeholder="Search"}}
+</div>
+<div class="col-md-2 col-xs-2">
+<button class="btn btn-default" type="button" id="button_add"><i class="fa fa-plus"></i> Add</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</template>
+
