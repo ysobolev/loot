@@ -20,6 +20,7 @@ Template.list.helpers
   settings: () ->
     collection: Inventory.find {bag: this.bag, type: {$regex: Session.get "type"}}, {sort: order: 1}
     showNavigation: "never"
+    showColumnToggles: true
     fields: [
       key: "name"
       label: "Name"
@@ -33,6 +34,11 @@ Template.list.helpers
       key: "value"
       label: "Value"
       headerClass: "col-md-2"
+    ,
+      key: "weight"
+      label: "Weight"
+      headerClass: "col-md-2"
+      hidden: true
     ,
       key: "order"
       label: "Order"
