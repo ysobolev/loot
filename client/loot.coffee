@@ -26,6 +26,7 @@ Template.list.helpers
       label: "Name"
       headerClass: "col-md-6"
       tmpl: Template.table_item
+      hideToggle: true
     ,
       key: "quantity"
       label: "Quantity"
@@ -127,13 +128,14 @@ Template.navbar.events
 
   "click .action_clone": (event) ->
     event.preventDefault()
-    item = Inventory.findOne Session.get("selected")[0]
+    items = Inventory.find({_id: {$in: Session.get "selected"}}).fetch()
     Session.set "selected", []
-    new_item = {}
-    for key of item
-      new_item[key] = item[key]
-    delete new_item._id
-    Meteor.call "add", new_item, this.bag
+    for item in items
+      new_item = {}
+      for key of item
+        new_item[key] = item[key]
+      delete new_item._id
+      Meteor.call "add", new_item, this.bag
 
   "click .action_transfer": (event) ->
     event.preventDefault()
@@ -241,9 +243,103 @@ Template.add_item.events
       delete item._id
     Meteor.call "add", item, this.bag
 
+Template.edit_item.current_section = new ReactiveVar("General")
+Template.edit_item.sections =
+  General: [
+    name: "name"
+    label: "Name"
+  ,
+    name: "type"
+    label: "Type"
+  ,
+    name: "quantity"
+    label: "Quantity"
+  ,
+    name: "value"
+    label: "Value"
+  ,
+    name: "weight"
+    label: "Weight"
+  ,
+    name: "link"
+    label: "Link"
+  ],
+  Magic: [
+    name: "aura_type"
+    label: "Aura Type"
+  ,
+    name: "aura_strength"
+    label: "Aura Strength"
+  ,
+    name: "caster_level"
+    label: "Caster Level"
+  ,
+    name: "descriptors"
+    label: "Descriptors"
+  ,
+    name: "base_item"
+    label: "Base Item"
+  ],
+  Armor: [
+    name: "bonus"
+    label: "Armor Bonus"
+  ,
+    name: "arcane_failure"
+    label:"Arcane Failure"
+  ,
+    name: "max_dex"
+    label: "Max Dexterity"
+  ,
+    name: "check_penalty"
+    label: "Check Penalty"
+  ,
+    name: "speed_30"
+    label: "Unencumbered (30ft)"
+  ,
+    name: "speed_20"
+    label: "Unencumbered (20ft)"
+  ],
+  Weapon: [
+    name: "class"
+    label: "Class"
+  ,
+    name: "critical"
+    label: "Critical Range"
+  ,
+    name: "damage_m"
+    label: "Damage (M)"
+  ,
+    name: "damage_s"
+    label: "Damage (S)"
+  ,
+    name: "proficiency"
+    label: "Proficiency"
+  ,
+    name: "weapon_type"
+    label: "Damage Type"
+  ,
+    name: "range"
+    label: "Range"
+  ,
+    name: "special"
+    label: "Special"
+  ],
+  Equipment: [
+    name: "craft_dc"
+    label: "Craft DC"
+  ]
+  
 Template.edit_item.helpers
-  tabs: () ->
-    this.item.type.split " "
+  section: () ->
+    Template.edit_item.current_section.get()
+  fields: () ->
+    section = Template.edit_item.current_section.get()
+    if section != "Other"
+      Template.edit_item.sections[section]
+
+Template.edit_item.events
+  "click .section": (event, context) ->
+    Template.edit_item.current_section.set(event.target.innerHTML)
 
 Template.field.helpers
   value: () ->

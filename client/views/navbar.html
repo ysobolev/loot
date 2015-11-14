@@ -44,11 +44,11 @@
         {{#if select_one}}
 	      <li><a href="#" class="action_edit"><i class="fa fa-pencil"> Edit</i></a></li>
 	      <li><a href="#" class="action_split"><i class="fa fa-object-ungroup"> Split</i></a></li>
-	      <li><a href="#" class="action_clone"><i class="fa fa-clone"> Clone</i></a></li>
         {{else}} {{#if select_many}}
 	      <li><a href="#" class="action_merge"><i class="fa fa-object-group"> Merge</i></a></li>
         {{/if}} {{/if}}
 	{{#if selected}}
+	      <li><a href="#" class="action_clone"><i class="fa fa-clone"> Clone</i></a></li>
 	      <li><a href="#" class="action_stats"><i class="fa fa-bar-chart"></i> Stats</a></li>
 	      <li><a href="#" class="action_transfer"><i class="fa fa-exchange"></i>Transfer</a></li>
 	      <li><a href="#" class="action_trash"><i class="fa fa-trash"></i>Trash</a></li>

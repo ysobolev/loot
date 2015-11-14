@@ -1,5 +1,5 @@
 <template name="field">
-	<tr><td>{{label}}</td><td><input type="text" class="item_property form-control input-sm" data-property="{{name}}" value="{{value}}"></td></tr>
+<tr><td>{{label}}</td><td><input type="text" class="item_property form-control input-sm" data-property="{{name}}" value="{{value}}"></td></tr>
 </template>
 
 <template name="edit_item">
@@ -22,28 +22,33 @@ Note: changes take effect immediately.
 </div>
 
 <div class="row">
-<ul class="nav nav-tabs">
-	<li class="active"><a href="#">General</a></li>
-	{{#each tabs}}
-	<li><a href="#">{{this}}</a></li>
-	{{/each}}
-</ul>
-<div class="tab-content">
+<div class="dropdown pull-right">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    {{section}}
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#" class="section">General</a></li>
+    <li><a href="#" class="section">Magic</a></li>
+    <li><a href="#" class="section">Armor</a></li>
+    <li><a href="#" class="section">Weapon</a></li>
+    <li><a href="#" class="section">Equipment</a></li>
+    <li><a href="#" class="section">Other</a></li>
+  </ul>
+</div>
+</div>
 
-<div class="tab-pane active" id="tab_general">
+<div class="row">
 <table class="table">
 <thead><tr><th>Key</th><th>Value</th></tr></thead>
 <tbody>
-{{> field name="name" label="Name" data=item}}
-{{> field name="type" label="Type" data=item}}
-{{> field name="quantity" label="Quantity" data=item}}
-{{> field name="value" label="Value" data=item}}
+{{#each fields}}
+{{> field name=name label=label data=../item}}
+{{/each}}
 </tbody>
 </table>
 </div>
 
-</div>
-</div>
 </div>
 </div>
 </div>
