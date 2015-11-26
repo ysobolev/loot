@@ -1,4 +1,3 @@
-
 Router.route "/", () -> this.render "welcome"
 Router.route "/:bag", () ->
   this.render "list", data: bag: this.params.bag
@@ -169,7 +168,7 @@ Template.navbar.events
   
   "click .action_edit": (event) ->
     item = Inventory.findOne Session.get("selected")[0]
-    Modal.show "edit_item", {bag: this.bag, item:item}
+    Modal.show "edit_item", {bag: this.bag, item: item}
 
 Template.list.events
   "click .reactive-table tbody tr": (event) ->
@@ -260,9 +259,6 @@ Template.edit_item.sections =
   ,
     name: "weight"
     label: "Weight"
-  ,
-    name: "link"
-    label: "Link"
   ],
   Magic: [
     name: "aura_type"
@@ -328,29 +324,69 @@ Template.edit_item.sections =
     name: "craft_dc"
     label: "Craft DC"
   ]
-  
+  Notes: [
+    name: "owner"
+    label: "Owner"
+  ,
+    name: "link"
+    label: "Link"
+  ,
+    name: "notes"
+    label: "Notes"
+    area: true
+  ]
+
 Template.edit_item.helpers
   section: () ->
     Template.edit_item.current_section.get()
+  sections: () ->
+    key for key of Template.edit_item.sections
+  custom: () ->
+    Template.edit_item.current_section.get() == "Custom"
   fields: () ->
+    # re-fetch item
+    item = Inventory.findOne this.item._id
     section = Template.edit_item.current_section.get()
-    if section != "Other"
+    if section != "Custom"
       Template.edit_item.sections[section]
+    else
+      all = (key for key of item)
+      existing = []
+      for section of Template.edit_item.sections
+        for field in Template.edit_item.sections[section]
+          existing.push field.name
+      hidden = ["bag", "_id", "order"]
+      ({name: key, label: key}) for key in all when key not in existing and key not in hidden
 
 Template.edit_item.events
   "click .section": (event, context) ->
     Template.edit_item.current_section.set(event.target.innerHTML)
 
+  "click #button_add_field": (event, context) ->
+    event.preventDefault()
+    name = $("#new_field").val()
+    $("#new_field").val("")
+    if not name? or name == ""
+      return
+    if this.item[name]?
+      return bootbox.alert "This field already exists."
+    Inventory.update this.item._id, $set: "#{name}": ""
+  
 Template.field.helpers
   value: () ->
     this.data[this.name]
 
 Template.field.events
-  "change .item_property" : (event, context) ->
+  "change .item_property": (event, context) ->
     property = $(event.target).attr "data-property"
     obj = {}
     obj[property] = event.target.value
     Inventory.update this.data._id, $set: obj
+
+  "click .button_remove_field": (event, context) ->
+    event.preventDefault()
+    property = $(event.target).attr "data-property"
+    Inventory.update {_id: this.data._id}, {$unset: {"#{property}": 1}}
 
 methods =
   is_magic: () -> (this.type.indexOf "magic") > -1

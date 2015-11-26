@@ -1,5 +1,18 @@
 <template name="field">
-<tr><td>{{label}}</td><td><input type="text" class="item_property form-control input-sm" data-property="{{name}}" value="{{value}}"></td></tr>
+	<tr>
+	<td>
+	{{label}}
+	{{#if custom}}
+	<a data-property="{{label}}" class="pull-right button_remove_field"><i data-property="{{label}}" class="fa fa-times"></i></a>
+	{{/if}}
+	</td>
+	<td>
+	{{#if area}}
+	<textarea class="item_property form-control input-sm" data-property="{{name}}" value="{{value}}"></textarea>
+	{{else}}
+	<input type="text" class="item_property form-control input-sm" data-property="{{name}}" value="{{value}}">
+	{{/if}}
+	</td></tr>
 </template>
 
 <template name="edit_item">
@@ -28,12 +41,10 @@ Note: changes take effect immediately.
     <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#" class="section">General</a></li>
-    <li><a href="#" class="section">Magic</a></li>
-    <li><a href="#" class="section">Armor</a></li>
-    <li><a href="#" class="section">Weapon</a></li>
-    <li><a href="#" class="section">Equipment</a></li>
-    <li><a href="#" class="section">Other</a></li>
+    {{#each sections}}
+    <li><a href="#" class="section">{{this}}</a></li>
+    {{/each}}
+    <li><a href="#" class="section">Custom</a></li>
   </ul>
 </div>
 </div>
@@ -43,11 +54,21 @@ Note: changes take effect immediately.
 <thead><tr><th>Key</th><th>Value</th></tr></thead>
 <tbody>
 {{#each fields}}
-{{> field name=name label=label data=../item}}
+{{> field name=name label=label data=../item area=area custom=custom}}
 {{/each}}
 </tbody>
 </table>
 </div>
+{{#if custom}}
+<div class="row">
+<div class="col-md-4">
+<input type="text" id="new_field" class="form-control input-sm">
+</div>
+<div class="col-md-2">
+<button class="btn btn-default" type="button" id="button_add_field"><i class="fa fa-plus"></i> Add</button>
+</div>
+</div>
+{{/if}}
 
 </div>
 </div>
