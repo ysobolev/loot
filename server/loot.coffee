@@ -47,6 +47,12 @@ Meteor.publish "inventory", (bag) ->
 Meteor.publish "items", () ->
   return Items.find {}
 
+Meteor.publish "autocomplete-items", (selector, options) ->
+  options.limit = Math.min(50, Math.abs(options.limit)) if options.limit
+  cursor = Items.find selector, options
+  Mongo.Collection._publishCursor cursor, this, "autocompleteRecords"
+  this.ready()
+
 Meteor.methods
   add: (item, bag) ->
     check item, Object

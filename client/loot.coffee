@@ -3,9 +3,7 @@ Router.route "/:bag", () ->
   this.render "list", data: bag: this.params.bag
  ,
   loadingTemplate: "loading"
-  waitOn: () ->
-    [Meteor.subscribe("inventory", this.params.bag),
-     Meteor.subscribe ("items")]
+  waitOn: () -> [Meteor.subscribe("inventory", this.params.bag)]
 
 Template.welcome.helpers
   random: () ->
@@ -221,7 +219,8 @@ Template.add_item.helpers
     position: "bottom"
     limit: 5
     rules: [
-      collection: Items
+      collection: ""
+      subscription: "autocomplete-items"
       field: "name"
       filter: {type: {$regex: Session.get "type"}}
       template: Template.item_short
@@ -344,7 +343,7 @@ Template.edit_item.helpers
   custom: () ->
     Template.edit_item.current_section.get() == "Custom"
   fields: () ->
-    # re-fetch item
+    # re-fetch item (but why is it not reactive on its own?)
     item = Inventory.findOne this.item._id
     section = Template.edit_item.current_section.get()
     if section != "Custom"
