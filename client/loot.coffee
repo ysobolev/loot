@@ -18,6 +18,7 @@ Template.list.helpers
     collection: Inventory.find {bag: this.bag, type: {$regex: Session.get "type"}}, {sort: order: 1}
     showNavigation: "never"
     showColumnToggles: true
+    rowsPerPage: Infinity
     fields: [
       key: "name"
       label: "Name"
