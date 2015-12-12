@@ -9,7 +9,6 @@ mizzao:autocomplete
 mizzao:bootboxjs
 mizzao:bootstrap-3
 iron:router
-yury:sortable
 standard-minifiers
 meteor-base
 mobile-experience
