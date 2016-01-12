@@ -10,7 +10,7 @@ magic_items = FuzzySet magic_data, false, 2, 3, 0
 base_data = ["longsword", "chainmail", "chain shirt", "wooden shield"]
 base_items = FuzzySet base_data, false, 2, 3, 0.1
 modifier_data = ["flaming", "flaming burst", "mithral"]
-modifiers = FuzzySet modifier_data, false, 2, 3, 0.1
+modifiers = FuzzySet modifier_data, false, 2, 3, 0.2
 
 identify = (name) ->
   console.log "testing: #{name}"
@@ -66,6 +66,7 @@ identify = (name) ->
       mods.unshift enchantment_label
       mods = mods.join " "
       test_item = "#{mods} #{base}".trim()
+      # console.log "built: #{test_item}"
       constructed.add test_item
 
   candidates.push.apply candidates, constructed.get name
@@ -85,6 +86,7 @@ identify = (name) ->
 identify "2 -1 flaming longsword"
 identify "2 -1 flaming mithral longsword"
 identify "flaming burst +1 longsword"
+identify "flaming flaming burst +1 longsword"
 identify "3 +2 chain mail"
 identify "+2 chain shirt"
 identify "headband of vast int +2"
