@@ -15,7 +15,6 @@ callback-hook@1.0.4
 check@1.1.0
 coffeescript@1.0.11
 dandv:caret-position@2.1.1
-dburles:mongo-collection-instances@0.3.4
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.2
@@ -42,7 +41,6 @@ iron:middleware-stack@1.0.11
 iron:router@1.0.12
 iron:url@1.0.11
 jquery@1.11.4
-lai:collection-extensions@0.1.4
 launch-screen@1.0.4
 livedata@1.0.15
 logging@1.0.8
@@ -80,4 +78,3 @@ underscore@1.0.4
 url@1.0.5
 webapp@1.2.3
 webapp-hashing@1.0.5
-yury:sortable@1.1.0-yury
