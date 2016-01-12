@@ -30,7 +30,7 @@ identify = (name) ->
       tokens.splice 0, 1
 
   # try to match known magical items
-  candidates.push.apply candidates, magic_items.get name
+  candidates = candidates.concat magic_items.get name
 
   # try to identify common items
 
@@ -69,7 +69,7 @@ identify = (name) ->
       # console.log "built: #{test_item}"
       constructed.add test_item
 
-  candidates.push.apply candidates, constructed.get name
+  candidates = candidates.concat constructed.get(name) or []
 
   # sort and return
   candidates.sort().reverse()
