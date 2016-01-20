@@ -7,9 +7,11 @@ powerset = (S) ->
 FuzzySet = require "./fuzzyset.js"
 magic_data = (item.name for item in require "./magic.json")
 magic_items = FuzzySet magic_data, false, 2, 3, 0
-base_data = ["longsword", "chainmail", "chain shirt", "wooden shield"]
+base_data = ["longsword", "chainmail", "chain shirt", "wooden shield", "potion", "scroll"]
 base_items = FuzzySet base_data, false, 2, 3, 0.1
 modifier_data = ["flaming", "flaming burst", "mithral"]
+spell_data = (item.name for item in require "./spells.json")
+modifier_data = modifier_data.concat spell_data
 modifiers = FuzzySet modifier_data, false, 2, 3, 0.2
 
 identify = (name) ->
@@ -52,20 +54,24 @@ identify = (name) ->
   name = remaining_tokens.join " "
 
   # try to find base item
-  base_matches = (base_item[1] for base_item in (base_items.get(name) or []))
+  base_matches = (base_item[1] for base_item in (base_items.get(name) or []) when base_item[0] > 0.2)
   # console.log "bases: #{base_matches}"
+  base_matches = base_matches[0..5]
   
   # try to find modifiers
-  modifier_matches = (modifier[1] for modifier in (modifiers.get(name) or []))
+  modifier_matches = (modifier[1] for modifier in (modifiers.get(name) or []) when modifier[0] > 0.2)
   # console.log "mods: #{modifier_matches}"
+  modifier_matches = modifier_matches[0..5]
 
   # build candidate items to test agains
   constructed = FuzzySet [], false, 2, 3, 0
   for base in base_matches
     for mods in powerset modifier_matches
       mods.unshift enchantment_label
-      mods = mods.join " "
+      mods = (mods.join " ").trim()
       test_item = "#{mods} #{base}".trim()
+      if base in ["potion", "scroll"]
+        test_item = "#{base} of #{mods}".trim()
       # console.log "built: #{test_item}"
       constructed.add test_item
 
@@ -90,5 +96,9 @@ identify "flaming flaming burst +1 longsword"
 identify "3 +2 chain mail"
 identify "+2 chain shirt"
 identify "headband of vast int +2"
+identify "potion of nondetection"
+identify "scroll of detect evil"
+identify "scrol of detec tevil"
+identify "chain scroll of flaming evil"
 identify "32432rfsdf"
 
