@@ -7,7 +7,8 @@ powerset = (S) ->
 FuzzySet = require "./fuzzyset.js"
 magic_data = (item.name for item in require "./magic.json")
 magic_items = FuzzySet magic_data, false, 2, 3, 0
-base_data = ["longsword", "chainmail", "chain shirt", "wooden shield", "potion", "scroll"]
+base_data = ["longsword", "chainmail", "chain shirt", "wooden shield",
+             "potion", "scroll"]
 base_items = FuzzySet base_data, false, 2, 3, 0.1
 modifier_data = ["flaming", "flaming burst", "mithral"]
 spell_data = (item.name for item in require "./spells.json")
@@ -54,12 +55,14 @@ identify = (name) ->
   name = remaining_tokens.join " "
 
   # try to find base item
-  base_matches = (base_item[1] for base_item in (base_items.get(name) or []) when base_item[0] > 0.2)
+  base_matches = (base_item[1] for base_item in (base_items.get(name) or []) \
+                  when base_item[0] > 0.2)
   # console.log "bases: #{base_matches}"
   base_matches = base_matches[0..5]
-  
+
   # try to find modifiers
-  modifier_matches = (modifier[1] for modifier in (modifiers.get(name) or []) when modifier[0] > 0.2)
+  modifier_matches = (modifier[1] for modifier in (modifiers.get(name) or []) \
+                      when modifier[0] > 0.2)
   # console.log "mods: #{modifier_matches}"
   modifier_matches = modifier_matches[0..5]
 
@@ -101,4 +104,3 @@ identify "scroll of detect evil"
 identify "scrol of detec tevil"
 identify "chain scroll of flaming evil"
 identify "32432rfsdf"
-

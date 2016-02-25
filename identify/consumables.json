@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Potion",
+    "multiplier": 50
+  },
+  {
+    "name": "Oil",
+    "multiplier": 50
+  },
+  {
+    "name": "Scroll",
+    "multiplier": 25
+  },
+  {
+    "name": "Wand",
+    "multiplier": 750
+  }
+]
